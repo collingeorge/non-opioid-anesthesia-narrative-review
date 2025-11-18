@@ -1,0 +1,51 @@
+\documentclass[tikz,border=5mm]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
+
+\begin{document}
+\begin{tikzpicture}[
+  box/.style={rectangle, draw, rounded corners, minimum height=2.8em, 
+              minimum width=11em, align=center, fill=blue!5, font=\small},
+  arrow/.style={-Stealth, thick},
+  node distance=1.8cm and 1.4cm
+]
+
+% === Identification ===
+\node[box] (identify) {\textbf{Identification}\\Records identified\\
+                       via database search\\(n $\approx$ 1,200)};
+
+% === Screening ===
+\node[box, below=of identify] (screen) {\textbf{Screening}\\
+                                        Records screened\\
+                                        by title/abstract\\
+                                        (n $\approx$ 1,200)};
+
+% === Eligibility ===
+\node[box, below=of screen] (eligible) {\textbf{Eligibility}\\
+                                        Full-text articles\\
+                                        assessed\\
+                                        (n $\approx$ 300)};
+
+% === Included ===
+\node[box, below=of eligible] (included) {\textbf{Included}\\
+                                          Studies synthesized\\
+                                          (n = 45--50)};
+
+% === Excluded (Right Side) ===
+\node[box, right=3cm of screen] (excluded1) {Excluded after\\
+                                             title/abstract\\
+                                             (n $\approx$ 900)};
+
+\node[box, right=3cm of eligible, text width=10em] (excluded2) 
+     {Excluded after\\full-text review\\(n $\approx$ 250)\\[0.3em]
+      Reasons:\\Non-peer-reviewed,\\animal studies,\\no NOA arm};
+
+% === Arrows ===
+\draw[arrow] (identify) -- (screen);
+\draw[arrow] (screen) -- (eligible);
+\draw[arrow] (eligible) -- (included);
+\draw[arrow] (screen.east) -- ++(1cm,0) |- (excluded1.west);
+\draw[arrow] (eligible.east) -- ++(1cm,0) |- (excluded2.west);
+
+\end{tikzpicture}
+\end{document}

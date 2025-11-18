@@ -1,0 +1,237 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{float}
+\usepackage[numbers]{natbib}
+
+\begin{document}
+
+% Table 1: SANRA Self-Assessment
+\begin{table}[H]
+\caption{SANRA Self-Assessment for Narrative Review Quality}
+\label{tab:sanra}
+\centering
+\small
+\begin{tabular}{@{}p{4cm}p{7.5cm}p{2cm}@{}}
+\toprule
+\textbf{SANRA Item} & \textbf{Description and Implementation} & \textbf{Score}\newline\textbf{(0--2)} \\
+\midrule
+Importance justification & Opioid crisis context (81,083 deaths, CDC 2023) establishes clinical need for safer perioperative analgesia & 2 \\
+\addlinespace
+Aims statement & Clear objectives stated: evaluate NOA efficacy/safety, assess ERAS integration, identify implementation barriers & 2 \\
+\addlinespace
+Literature description & Comprehensive PubMed/Scopus/Cochrane search, transparent selection (1,200 records $\rightarrow$ 45--50 studies) & 2 \\
+\addlinespace
+Referencing & Predominantly recent peer-reviewed sources (>80\% from 2020--2024), foundational works from 2010--2015 & 2 \\
+\addlinespace
+Scientific reasoning & Mechanisms explained (e.g., ketamine NMDA antagonism, dexmedetomidine $\alpha_2$-agonism), evidence graded by quality & 2 \\
+\addlinespace
+Evidence presentation & Balanced synthesis with explicit limitations (heterogeneity, publication bias, short follow-up) & 2 \\
+\addlinespace
+\midrule
+\textbf{Total SANRA Score} & & \textbf{12/12} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\clearpage
+
+% Table 2: Search Strategy
+\begin{table}[H]
+\caption{Search Strategy for Literature Review}
+\label{tab:search}
+\centering
+\small
+\begin{tabular}{@{}p{3.5cm}p{6.5cm}p{3.5cm}@{}}
+\toprule
+\textbf{Database} & \textbf{Search Terms\newline (Combined with Boolean Operators)} & \textbf{Filters Applied} \\
+\midrule
+PubMed/MEDLINE & ``non-opioid analgesia'' OR ``opioid-free anesthesia'' OR ``multimodal analgesia'' AND ``perioperative'' OR ``ERAS'' OR ``enhanced recovery'' & 2020--2024, English, human studies, peer-reviewed \\
+\addlinespace
+Scopus & ``ketamine'' OR ``dexmedetomidine'' OR ``regional anesthesia'' AND ``perioperative pain'' OR ``opioid sparing'' & 2020--2024, English, peer-reviewed, article or review \\
+\addlinespace
+Cochrane Library & ``nerve blocks'' OR ``regional techniques'' OR ``enhanced recovery'' AND ``opioid crisis'' OR ``multimodal'' & RCTs, systematic reviews, 2020--2024 \\
+\addlinespace
+Gray Literature & Professional society guidelines (ASA, ESRA), conference proceedings & 2020--2024, English \\
+\bottomrule
+\end{tabular}
+\medskip
+
+\small\textit{Note:} MeSH terms and free-text keywords were combined using AND/OR operators. Approximately 1,200 initial records were identified, with 45--50 meeting final inclusion criteria after screening and full-text assessment.
+\end{table}
+
+\clearpage
+
+% Table 3: Comparative Outcomes
+\begin{table}[H]
+\centering
+\caption{Comparative Outcomes: NOA versus Traditional Opioid-Based Anesthesia}
+\label{tab:comparison}
+\small
+\begin{tabular}{@{}p{3.5cm}p{4cm}p{4cm}p{2.8cm}@{}}
+\toprule
+\textbf{Outcome Domain} & \textbf{NOA Approach} & \textbf{Opioid-Based\newline Approach} & \textbf{Clinical\newline Significance} \\
+\midrule
+Opioid consumption (MME) & 8--25 MME/24h (50--80\% reduction) & 40--100 MME/24h typical & Substantial opioid sparing \\
+\addlinespace
+Postoperative pain (VAS) & 2.5--4.5 (MD +0.39) & 2.0--4.0 & Non-inferior analgesia \\
+\addlinespace
+PONV incidence & 10--20\% & 30--45\% & up to 55\% (RR 0.45) \\
+\addlinespace
+Hospital length of stay & 1--2 day reduction & Baseline reference & Shorter recovery time \\
+\addlinespace
+Respiratory depression & Rare ($<$1\%) & 5--15\% & Major safety advantage \\
+\addlinespace
+Bradycardia & 5--15\% & Rare ($<$2\%) & Requires monitoring \\
+\addlinespace
+Hypotension & 10--20\% & 5--10\% & May require vasopressors \\
+\addlinespace
+Ileus & 5--15\% & 20--30\% baseline & Faster GI recovery \\
+\addlinespace
+Early mobilization & 6--12h sooner & Delayed by sedation & Enhanced recovery \\
+\addlinespace
+Patient satisfaction (QoR-15) & +8 to +15 points & Baseline reference & Improved quality of life \\
+\addlinespace
+Cost (hospitalization) & 20--30\% reduction & Baseline reference & Significant cost savings \\
+\bottomrule
+\end{tabular}
+\medskip
+
+\small\textit{Note:} MME = Morphine Milligram Equivalents; PONV = Postoperative Nausea and Vomiting; VAS = Visual Analog Scale (0--10); QoR-15 = Quality of Recovery-15 score; MD = Mean Difference; GI = Gastrointestinal. Data synthesized from multiple RCTs and meta-analyses cited throughout Results section. Individual patient outcomes may vary based on surgical type, comorbidities, and protocol specifics.
+\end{table}
+
+
+\clearpage
+
+% Table 4: Opioid-Sparing Effects
+\begin{table}[H]
+\centering
+\caption{Opioid-Sparing Effects Across Surgical Specialties}
+\label{tab:domains}
+\small
+\begin{tabular}{@{}p{3.2cm}p{2.2cm}p{1.5cm}p{4.5cm}p{2.2cm}@{}}
+\toprule
+\textbf{Specialty} & \textbf{Opioid Reduction (\%)} & \textbf{Sample} & \textbf{Notable Findings} & \textbf{Reference} \\
+\midrule
+Orthopedic & 65--75 & $n=200$ & Consistent across joint procedures & \cite{Beloeil2021} \\
+Abdominal & 60--75 & $n\!=\!1{,}800$ & Large meta-analysis support & \cite{daSilveira2024} \\
+Thoracic & 50--80 & — & High heterogeneity ($I^2=78\%$) & \cite{DAmico2022} \\
+Breast & 60 & $n=120$ & Well-tolerated protocols & \cite{Frauenknecht2022} \\
+Thyroidectomy & 55 & $n=100$ & Minimal adverse effects & \cite{Chen2022} \\
+Cesarean section & 60 & $n=140$ & Enhanced recovery protocols & \cite{Wang2023a} \\
+Bariatric surgery & 68 & $n=80$ & High-risk patient population & \cite{Narejo2021} \\
+Kidney transplant & 70 & $n=200$ & Complex patient population & \cite{Bell2023} \\
+Neurosurgery & 70 & — & Reduced postoperative delirium & \cite{McCullough2023} \\
+\bottomrule
+\end{tabular}
+\medskip
+
+\small\textit{Note:} Data from randomized controlled trials and meta-analyses demonstrate consistent 50--80\% opioid reductions across surgical specialties with acceptable safety profiles.
+\end{table}
+
+\clearpage
+
+% Table 5: Comparative Premedication Strategy
+\begin{table}[H]
+\centering
+\caption{Comparative Premedication Strategy: Midazolam vs. Dexmedetomidine \citep{Mena2022}}
+\label{tab:s1-premed}
+\small
+\begin{tabular}{@{}p{3.5cm}p{5cm}p{5cm}@{}}
+\toprule
+\textbf{Feature} & \textbf{Midazolam}\newline\textbf{(Benzodiazepine)} & \textbf{Dexmedetomidine}\newline\textbf{(Alpha-2 Agonist)} \\
+\midrule
+Primary Goal & Anxiolysis \& Amnesia & Anxiolysis \& Analgesia \\
+\addlinespace
+Respiratory Effect & Depressant (increases risk) & Minimal/None \\
+\addlinespace
+Postoperative Risk & Increased Delirium & Reduced Delirium \\
+\addlinespace
+Opioid-Sparing\newline Effect & None & Significant \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\clearpage
+
+% Table 6:Perioperative Anesthesia Framework: Traditional Opioid-Based vs. Non-Opioid (NOA) Approach
+
+\begin{table}[H]
+\centering
+\caption{Perioperative Anesthesia Framework: Traditional Opioid-Based vs. Non-Opioid (NOA) Approach}
+\label{tab:master-protocol}
+\small
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{@{}p{2.5cm}p{4.2cm}p{4.5cm}p{3.3cm}@{}}
+\toprule
+\textbf{Phase} & \textbf{Opioid-Based}\newline\textbf{(Traditional)} & \textbf{Non-Opioid (NOA)} & \textbf{NOA Higher-Risk /}\newline\textbf{Contraindications} \\
+\midrule
+\textbf{Preoperative} &
+Midazolam 2--5 mg IV\newline
+PONV prophylaxis PRN &
+Acetaminophen 1000 mg PO\newline
+Gabapentin 300--600 mg PO\newline
+Dexmedetomidine 0.5--1 $\mu$g/kg IV\newline
+Scopolamine patch\newline
+Patient education &
+Severe bradycardia\newline
+Heart block (AV)\newline
+High delirium risk (elderly + dementia) \\
+\addlinespace[10pt]
+\midrule
+\addlinespace[10pt]
+\textbf{Induction \&\newline Maintenance} &
+\textbf{Induction:}\newline
+Propofol bolus + lidocaine\newline
+Fentanyl 1--2 $\mu$g/kg bolus\newline
+Rocuronium 0.6--1.2 mg/kg\newline
+\textbf{Maintenance:}\newline
+Remifentanil infusion\newline
+Sevoflurane 0.8--1.2 MAC &
+\textbf{Induction:}\newline
+Propofol bolus + lidocaine\newline
+Rocuronium 0.6--1.2 mg/kg\newline
+\textbf{Maintenance:}\newline
+Propofol TIVA or Sevoflurane (low dose 0.5--0.7 MAC)\newline
+Dexmedetomidine 0.2--0.7 $\mu$g/kg/h\newline
+Ketamine 0.1--0.5 mg/kg/h\newline
+Lidocaine 1--2 mg/kg/h\newline
+Regional block (ESP/TAP/PECS) &
+Unstable hemodynamics (shock)\newline
+Severe hepatic impairment (lidocaine)\newline
+Uncontrolled psychiatric conditions (ketamine)\newline
+Coagulopathy or infection at block site \\
+\addlinespace[10pt]
+\midrule
+\addlinespace[10pt]
+\textbf{Emergence \&\newline Postoperative} &
+Opioids titrated to pain score\newline
+PCA morphine/hydromorphone\newline
+Ondansetron for PONV &
+Acetaminophen 1000 mg q6h\newline
+Ketorolac 15--30 mg IV q6h (if no CI)\newline
+Gabapentin continuation\newline
+Regional catheter infusion (if placed)\newline
+Magnesium (select cases)\newline
+Early mobilization\newline
+Opioids \textbf{PRN only} &
+Active GI bleed or peptic ulcer\newline
+Severe renal impairment (eGFR $<$30)\newline
+High surgical bleeding risk\newline
+Platelet dysfunction or anticoagulation \\
+\bottomrule
+\end{tabular}
+\renewcommand{\arraystretch}{1}
+\medskip
+
+\small\textit{Note:} Dosing ranges should be individualized based on patient age, weight, comorbidities, and surgical complexity. MAC = Minimum Alveolar Concentration; TIVA = Total Intravenous Anesthesia; ESP = Erector Spinae Plane; TAP = Transversus Abdominis Plane; PECS = Pectoral Nerve Block; PCA = Patient-Controlled Analgesia; PRN = As Needed; CI = Contraindication; GI = Gastrointestinal; eGFR = Estimated Glomerular Filtration Rate (mL/min/1.73m²); AV = Atrioventricular; PONV = Postoperative Nausea and Vomiting.
+\end{table}
+
+% ============================================================================
+% BIBLIOGRAPHY — FINAL, PUBLICATION-READY
+% ============================================================================
+\clearpage
+\bibliographystyle{unsrtnat}
+\bibliography{bibliography}
+\end{document}

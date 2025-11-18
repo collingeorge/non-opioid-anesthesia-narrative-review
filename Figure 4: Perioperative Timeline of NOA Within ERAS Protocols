@@ -1,0 +1,92 @@
+\documentclass[tikz,border=5mm]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, shadows}
+
+\begin{document}
+\begin{tikzpicture}[
+    scale=0.95, 
+    every node/.style={transform shape},
+    phase/.style={rectangle, draw, rounded corners, minimum width=3.2cm, 
+                  minimum height=1cm, align=center, font=\small\bfseries, 
+                  drop shadow},
+    box/.style={rectangle, draw, rounded corners, minimum width=3.8cm, 
+                align=left, font=\footnotesize, fill=white, text width=3.5cm, 
+                inner sep=8pt},
+    arrow/.style={-Stealth, thick, color=gray!70},
+    timeline/.style={-Stealth, ultra thick, color=blue!60}
+]
+
+% Phase labels at top
+\node[phase, fill=blue!15] at (2,5.2) {Preoperative};
+\node[phase, fill=orange!15] at (7,5.2) {Intraoperative};
+\node[phase, fill=green!15] at (12,5.2) {Postoperative};
+
+% Arrows from phases to timeline
+\draw[arrow] (2,4.7) -- (2,4.1);
+\draw[arrow] (7,4.7) -- (7,4.1);
+\draw[arrow] (12,4.7) -- (12,4.1);
+
+% Timeline in the middle (connecting phases to intervention boxes)
+\draw[timeline] (0,3.8) -- (14,3.8);
+\foreach \x/\label in {0/Day -1, 4.5/Day 0, 9/Day 1, 14/Day 2+} {
+    \draw[thick] (\x,3.9) -- (\x,3.7);
+    \node[below, font=\footnotesize] at (\x,3.5) {\label};
+}
+
+% Arrows from timeline to intervention boxes
+\draw[arrow] (2,3.6) -- (2,3.0);
+\draw[arrow] (7,3.6) -- (7,3.0);
+\draw[arrow] (12,3.6) -- (12,3.0);
+
+% Intervention boxes - all anchored at north
+\node[box, fill=blue!5, anchor=north] at (2,2.9) {
+\textbullet\ Patient education\\
+\textbullet\ Acetaminophen 1000\,mg PO\\
+\textbullet\ Celecoxib 400\,mg PO (if no CI)
+};
+
+\node[box, fill=orange!5, anchor=north] at (7,2.9) {
+\textbullet\ Regional anesthesia (ESP/TAP)\\
+\textbullet\ Ketamine 0.5\,mg/kg IV\\
+\textbullet\ Dexmedetomidine 0.2--0.7\,$\mu$g/kg/h\\
+\textbullet\ IV lidocaine (select cases)
+};
+
+\node[box, fill=green!5, anchor=north] at (12,2.9) {
+\textbullet\ Acetaminophen q6h\\
+\textbullet\ NSAIDs (if no CI)\\
+\textbullet\ Regional catheters\\
+\textbullet\ Early mobilization\\
+\textbullet\ Opioids PRN only
+};
+
+% Outcome boxes at bottom
+\node[draw, rounded corners, fill=yellow!10, minimum width=3cm, 
+      minimum height=1.4cm, align=center, font=\footnotesize, 
+      text width=2.7cm, anchor=north, inner sep=6pt] at (2,-0.5) {
+\textbf{Goals:}\\[2pt]
+Reduced anxiety\\
+Preemptive analgesia
+};
+
+\node[draw, rounded corners, fill=yellow!10, minimum width=3cm, 
+      minimum height=1.4cm, align=center, font=\footnotesize, 
+      text width=2.7cm, anchor=north, inner sep=6pt] at (7,-0.5) {
+\textbf{Goals:}\\[2pt]
+50--80\% opioid reduction\\
+Stable hemodynamics
+};
+
+\node[draw, rounded corners, fill=yellow!10, minimum width=3cm, 
+      minimum height=1.4cm, align=center, font=\footnotesize, 
+      text width=2.7cm, anchor=north, inner sep=6pt] at (12,-0.5) {
+\textbf{Outcomes:}\\[2pt]
+LOS: 1--2 days\\
+$\downarrow$\\
+PONV: up to 55\%\\
+$\downarrow$\\
+Earlier recovery
+};
+
+\end{tikzpicture}
+\end{document}

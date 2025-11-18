@@ -1,0 +1,92 @@
+% === fig_multimodal_noa_mechanism.tex ===
+% Standalone TikZ figure — NO OVERLAPS, PROFESSIONAL
+% Compile: pdflatex fig_multimodal_noa_mechanism.tex
+
+\documentclass[tikz,border=5mm]{standalone}
+\usepackage{tikz}
+\usepackage{siunitx}
+\usetikzlibrary{arrows.meta, shadows, positioning, calc}
+
+\begin{document}
+\begin{tikzpicture}[
+    node distance=2.8cm and 2.4cm,
+    agent/.style={rectangle, draw, rounded corners,
+                  minimum width=3.4cm, minimum height=1.5cm,
+                  align=center, fill=blue!15,
+                  font=\small\bfseries, drop shadow},
+    pathway/.style={rectangle, draw, rounded corners,
+                    minimum width=3.8cm, minimum height=1.3cm,
+                    align=center, fill=orange!20, font=\small},
+    effect/.style={rectangle, draw, rounded corners,
+                   minimum width=3.0cm, minimum height=1.1cm,
+                   align=center, fill=green!15, font=\footnotesize},
+    arrow/.style={-Stealth, very thick, color=blue!70},
+    inhibit/.style={-|, very thick, color=red!70}
+]
+% === Central Pain Pathway ===
+\node[pathway] (peripheral) at (0,0)
+      {Peripheral\\Nociceptors\\(Tissue Injury)};
+\node[pathway, above=2.8cm of peripheral] (spinal)
+      {Spinal Cord\\Dorsal Horn\\(Central Sensitization)};
+\node[pathway, above=2.8cm of spinal] (brain)
+      {Supraspinal Centers\\(Pain Perception\\\& Modulation)};
+
+% === Left: Systemic Agents ===
+\node[agent, left=3.4cm of peripheral] (nsaids)
+      {NSAIDs\\Acetaminophen};
+\node[agent, left=3.4cm of spinal] (ketamine)
+      {Ketamine\\(NMDA Antagonist)};
+\node[agent, left=3.4cm of brain] (dex)
+      {Dexmedetomidine\\($\alpha_2$-Agonist)};
+
+% === Right: Regional / IV ===
+\node[agent, right=3.4cm of peripheral] (regional)
+      {Regional\\Anesthesia\\(Nerve Blocks)};
+\node[agent, right=3.4cm of spinal] (lidocaine)
+      {IV Lidocaine};
+
+% === Effects ===
+\node[effect, right=2.8cm of regional] (eff1)
+      {Blocks afferent\\transmission};
+\node[effect, right=2.8cm of lidocaine] (eff2)
+      {Reduces neuronal\\excitability};
+
+% === Inhibition Arrows ===
+\draw[inhibit] (nsaids) -- (peripheral)
+      node[midway,above,font=\tiny] {COX inhib.};
+\draw[inhibit] (ketamine) -- (spinal)
+      node[midway,above,font=\tiny] {NMDA block};
+\draw[inhibit] (dex) -- (brain)
+      node[midway,above,font=\tiny] {Descending inhib.};
+\draw[inhibit] (regional) -- (peripheral);
+\draw[inhibit] (lidocaine) -- (spinal)
+      node[midway,above,font=\tiny] {Na$^+$ block};
+
+% === Pain Signal Arrows ===
+\draw[arrow] (peripheral) -- (spinal)
+      node[midway,right,font=\tiny] {A$\delta$, C fibers};
+\draw[arrow] (spinal) -- (brain)
+      node[midway,right,font=\tiny] {Spinothalamic};
+
+% === Effect Arrows ===
+\draw[arrow,color=green!60!black] (regional) -- (eff1);
+\draw[arrow,color=green!60!black] (lidocaine) -- (eff2);
+
+% === TITLE — ABOVE BRAIN NODE ===
+\node[draw,fill=yellow!10,rounded corners,
+      minimum width=5.5cm, minimum height=1.1cm,
+      font=\small\bfseries,align=center,text depth=0.3em]
+      at ([yshift=1.8cm] brain.north) {Multimodal NOA Mechanism};
+
+% === LEGEND — BOTTOM-LEFT, NO OVERLAP ===
+\node[draw,rounded corners,fill=gray!5,
+      minimum width=4.2cm, minimum height=1.8cm,
+      font=\footnotesize,inner sep=7pt,align=left]
+      at (-7.8, -3.2) {
+        \textbf{Key:}\\[3pt]
+        \textcolor{blue!70}{\textbf{$\rightarrow$}} \quad Pain signal \\[4pt]
+        \textcolor{red!70}{\textbf{$\dashv$}} \quad Inhibition/Block
+      };
+
+\end{tikzpicture}
+\end{document}
