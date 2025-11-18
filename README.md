@@ -3,8 +3,7 @@
 **Author:** Collin B. George, BS  
 **Affiliation:** Department of Laboratory Medicine & Pathology, University of Washington Medical Center  
 **Status:** Manuscript complete, seeking co-authorship review  
-**Target Journal:** Korean Journal of Anesthesiology  
-**Word Count:** ~4,100 words (main text + abstract)
+**Word Count:** ~4,200 words (main text + abstract)
 
 ## Overview
 
