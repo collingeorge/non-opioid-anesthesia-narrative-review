@@ -1,7 +1,7 @@
 # Non-Opioid Anesthesia for Perioperative Pain Management: A Narrative Review
 
 **Author:** Collin B. George, BS  
-**Affiliation:** Department of Laboratory Medicine & Pathology, University of Washington Medical Center  
+**Affiliation:** University of Washington Medical Center  
 **Status:** Manuscript complete, seeking co-authorship review  
 **Word Count:** ~4,200 words (main text + abstract)
 
