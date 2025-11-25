@@ -6,7 +6,7 @@
 **Affiliation:** University of Washington Medical Center, Seattle, WA, USA  
 **Initial Publication Date:** November 5, 2024  
 **Status:** Independent research manuscript, publication-ready  
-**Word Count:** Approximately 4,100 words (main text and abstract)
+**Word Count:** Approximately 4,200 words (main text and abstract)
 
 ---
 
