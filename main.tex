@@ -93,7 +93,6 @@ Evidence, Implementation, and Future Directions --- A Narrative Review}}
 \begin{minipage}{0.9\textwidth}
 \centering
 \textbf{Collin B. George, BS}\\[6pt]
-\small Department of Laboratory Medicine \& Pathology\\
 \small University of Washington Medical Center, Seattle, WA, USA\\
 \small Former Research Associate, Pacific Northwest National Laboratory (PNNL), Richland, WA, USA\\[6pt]
 \small \texttt{cbg24@uw.edu}\\[4pt]
@@ -658,17 +657,22 @@ Opioid-Sparing\newline Effect & None & Significant \\
 \end{tabular}
 \end{table}
 
-\textbf{Clinical Nuance:} While NOA's safety profile is favorable, clinicians must balance hemodynamic risks (e.g., dexmedetomidine-induced bradycardia) against opioids' chronic harms. These acute, manageable effects are reversible with monitoring, unlike opioids' irreversible addiction risk, supporting NOA as the \textbf{ethical default} in appropriate patients. Table~\ref{tab:master-protocol} provides a comprehensive perioperative framework comparing traditional opioid-based and NOA approaches, including contraindications where opioid-based anesthesia may remain the safer choice.
+\textbf{Clinical Nuance:} While NOA's safety profile is favorable, clinicians must balance hemodynamic risks (e.g., dexmedetomidine-induced bradycardia) against opioids' chronic harms. These acute, manageable effects are reversible with monitoring, unlike opioids' irreversible addiction risk, supporting NOA as the \textbf{ethical default} in appropriate patients.
+
+Although sub-anesthetic ketamine has an excellent safety profile and the strongest evidence for preventing central sensitization and chronic postsurgical pain \citep{Brinck2021, Grossi2025}, some institutions remain hesitant due to its Schedule III status or concerns in patients with psychiatric comorbidity. In such settings, or in prolonged postoperative ICU stays where ongoing sedation is required, a ketamine-free NOA variant—relying on higher-dose dexmedetomidine (0.3--0.8~\si{\micro\gram\per\kilo\gram\per\hour}), lidocaine infusion (1.5--2.5~mg/kg/h), and mandatory high-quality regional anesthesia—still achieves 60--75\% opioid reduction and comparable acute recovery outcomes \citep{Hu2023, Jin2022, Mathew2023}. Opioids may still be required as rescue analgesia in the ICU for breakthrough pain or in rare cases of refractory hemodynamic instability, but their use should be limited to targeted, short-duration rescue rather than routine maintenance. This pragmatic, tiered approach preserves the ethical and clinical advantages of NOA while facilitating adoption across diverse practice environments.
+
+Table~\ref{tab:master-protocol} provides a comprehensive perioperative framework comparing traditional opioid-based and NOA approaches, including contraindications where opioid-based anesthesia may remain the safer choice.
 
 % ============================================================================
-% MASTER PROTOCOL TABLE — COMPREHENSIVE PERIOPERATIVE COMPARISON
+% MASTER PROTOCOL TABLE — FINAL CLINICAL VERSION
 % ============================================================================
+
 \begin{table}[H]
 \centering
 \caption{Perioperative Anesthesia Framework: Traditional Opioid-Based vs. Non-Opioid (NOA) Approach}
 \label{tab:master-protocol}
 \small
-\renewcommand{\arraystretch}{1.4}
+\renewcommand{\arraystretch}{1.2}  % Reduced from 1.4
 \begin{tabular}{@{}p{2.5cm}p{4.2cm}p{4.5cm}p{3.3cm}@{}}
 \toprule
 \textbf{Phase} & \textbf{Opioid-Based}\newline\textbf{(Traditional)} & \textbf{Non-Opioid (NOA)} & \textbf{NOA Higher-Risk /}\newline\textbf{Contraindications} \\
@@ -678,15 +682,16 @@ Midazolam 2--5 mg IV\newline
 PONV prophylaxis PRN &
 Acetaminophen 1000 mg PO\newline
 Gabapentin 300--600 mg PO\newline
-Dexmedetomidine 0.5--1 $\mu$g/kg IV\newline
+Dexmedetomidine 0.25--1 $\mu$g/kg IV (lower in elderly/comorbid)\newline
 Scopolamine patch\newline
 Patient education &
 Severe bradycardia\newline
 Heart block (AV)\newline
 High delirium risk (elderly + dementia) \\
-\addlinespace[10pt]
+\addlinespace[6pt]  % Reduced from 10pt
 \midrule
-\addlinespace[10pt]
+\addlinespace[6pt]
+
 \textbf{Induction \&\newline Maintenance} &
 \textbf{Induction:}\newline
 Propofol bolus + lidocaine\newline
@@ -699,40 +704,40 @@ Sevoflurane 0.8--1.2 MAC &
 Propofol bolus + lidocaine\newline
 Rocuronium 0.6--1.2 mg/kg\newline
 \textbf{Maintenance:}\newline
-Propofol TIVA or Sevoflurane (low dose 0.5--0.7 MAC)\newline
+Propofol TIVA or Sevoflurane (0.5--0.7 MAC)\newline
 Dexmedetomidine 0.2--0.7 $\mu$g/kg/h\newline
-Ketamine 0.1--0.5 mg/kg/h\newline
-Lidocaine 1--2 mg/kg/h\newline
+Ketamine 0.1--0.5 mg/kg/h (higher for high-nociception)\newline
+Lidocaine 1--2 mg/kg/h (bolus $\leq 1.5$ mg/kg)\newline
 Regional block (ESP/TAP/PECS) &
-Unstable hemodynamics (shock)\newline
-Severe hepatic impairment (lidocaine)\newline
-Uncontrolled psychiatric conditions (ketamine)\newline
+Unstable hemodynamics\newline
+Severe hepatic impairment\newline
+Uncontrolled psychiatric conditions\newline
 Coagulopathy or infection at block site \\
-\addlinespace[10pt]
+\addlinespace[6pt]
 \midrule
-\addlinespace[10pt]
+\addlinespace[6pt]
+
 \textbf{Emergence \&\newline Postoperative} &
-Opioids titrated to pain score\newline
+Opioids titrated to pain\newline
 PCA morphine/hydromorphone\newline
 Ondansetron for PONV &
 Acetaminophen 1000 mg q6h\newline
 Ketorolac 15--30 mg IV q6h (if no CI)\newline
 Gabapentin continuation\newline
-Regional catheter infusion (if placed)\newline
+Regional catheter infusion\newline
 Magnesium (select cases)\newline
 Early mobilization\newline
 Opioids \textbf{PRN only} &
 Active GI bleed or peptic ulcer\newline
 Severe renal impairment (eGFR $<$30)\newline
 High surgical bleeding risk\newline
-Platelet dysfunction or anticoagulation \\
+Platelet dysfunction \\
 \bottomrule
 \end{tabular}
 \renewcommand{\arraystretch}{1}
-\medskip
+\end{table}
 
 \small\textit{Note:} Dosing ranges should be individualized based on patient age, weight, comorbidities, and surgical complexity. MAC = Minimum Alveolar Concentration; TIVA = Total Intravenous Anesthesia; ESP = Erector Spinae Plane; TAP = Transversus Abdominis Plane; PECS = Pectoral Nerve Block; PCA = Patient-Controlled Analgesia; PRN = As Needed; CI = Contraindication; GI = Gastrointestinal; eGFR = Estimated Glomerular Filtration Rate (mL/min/1.73m²); AV = Atrioventricular; PONV = Postoperative Nausea and Vomiting.
-\end{table}
 
 Implementing such a comprehensive framework requires interdisciplinary coordination. However, several implementation barriers constrain widespread NOA adoption. Regional anesthesia techniques require specialized **training and equipment**, with proficiency developing over 20–50 supervised cases \citep{Memtsoudis2010}. This underscores the need for structured training programs and policy support to expand workforce capacity. The lack of standardized protocols also limits adoption. Table~\ref{tab:master-protocol} provides a translational framework to guide immediate clinical practice and facilitate protocol standardization across institutions.
 
