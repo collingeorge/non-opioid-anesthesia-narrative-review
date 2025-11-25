@@ -50,6 +50,8 @@ The manuscript synthesizes evidence from 2020-2024 demonstrating that multimodal
 
 6. **Evidence Gaps:** Protocol heterogeneity, limited long-term outcome data, and under-representation of pediatric and geriatric populations identified as critical research priorities
 
+7. **Primary Prevention Potential:** By minimizing or eliminating perioperative opioid exposure, NOA addresses a critical public health concern: 10-20% of opioid-naïve surgical patients develop persistent opioid use post-surgery (rising to 20-30% in high-risk populations). With approximately 50 million surgical procedures annually in the United States, NOA implementation could potentially prevent hundreds of thousands of new opioid dependency cases each year.
+
 ---
 
 ## Repository Structure
