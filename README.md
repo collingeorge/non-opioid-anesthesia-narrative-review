@@ -199,8 +199,6 @@ BibTeX entry:
 ## Contact Information
 
 **Collin B. George, BS**  
-Clinical Laboratory Technician  
-Department of Laboratory Medicine & Pathology  
 University of Washington Medical Center  
 Seattle, WA, USA
 
