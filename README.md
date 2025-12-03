@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17537969.svg)](https://doi.org/10.5281/zenodo.17537969)
 
 - **Author:** Collin B. George, BS
-- **Affiliation:** Independent Clinical Researcher & Premedical Student
+- **Affiliation:** Independent Clinical Researcher & Medical School Applicant
 - (University of Washington; research not affiliated with or endorsed by UW Medicine)
 - **Initial Publication Date:** November 5, 2024  
 - **Status:** Independent research manuscript, publication-ready  
