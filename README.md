@@ -2,8 +2,9 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17537969.svg)](https://doi.org/10.5281/zenodo.17537969)
 
-**Author:** Collin B. George, BS  
-**Affiliation:** University of Washington Medical Center, Seattle, WA, USA  
+- **Author:** Collin B. George, BS
+- **Affiliation:** Independent Clinical Researcher & Premedical Student
+- (University of Washington; research not affiliated with or endorsed by UW Medicine)
 **Initial Publication Date:** November 5, 2024  
 **Status:** Independent research manuscript, publication-ready  
 **Word Count:** Approximately 4,200 words (main text and abstract)
