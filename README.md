@@ -1,6 +1,6 @@
 # Non-Opioid Anesthesia for Perioperative Pain Management: Evidence, Implementation, and Future Directions — A Narrative Review
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17973755.svg)](https://doi.org/10.5281/zenodo.17973755)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17537969.svg)](https://doi.org/10.5281/zenodo.17537969)
 
 - **Author:** Collin B. George, BS
 - **Affiliation:** Independent Clinical Researcher & Medical School Applicant
