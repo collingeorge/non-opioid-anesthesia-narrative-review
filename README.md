@@ -1,254 +1,389 @@
-# Non-Opioid Anesthesia for Perioperative Pain Management: Evidence, Implementation, and Future Directions — A Narrative Review
+# Non-Opioid Anesthesia for Perioperative Pain Management: Evidence, Implementation, and Future Directions
 
+**A SANRA-Compliant Narrative Review**
+
+![Status](https://img.shields.io/badge/Status-Publication%20Ready-blue)
+![Project Type](https://img.shields.io/badge/Project-Pre--Medical%20Research-blue)
+![Methodology](https://img.shields.io/badge/Methodology-SANRA%20Compliant-green)
+![Word Count](https://img.shields.io/badge/Words-~4,200-green)
+![Evidence Period](https://img.shields.io/badge/Evidence-2020--2024-orange)
+![Last Updated](https://img.shields.io/badge/Updated-November%202024-lightgrey)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17537969.svg)](https://doi.org/10.5281/zenodo.17537969)
-
-- **Author:** Collin B. George, BS
-- **Affiliation:** Independent Clinical Researcher & Medical School Applicant
-- (University of Washington; research not affiliated with or endorsed by UW Medicine)
-- **Initial Publication Date:** November 5, 2024  
-- **Status:** Independent research manuscript, publication-ready  
-- **Word Count:** Approximately 4,200 words (main text and abstract)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 
-## Description
+## Educational Use Only
 
-This repository contains the complete manuscript and supplementary materials for a comprehensive narrative review examining non-opioid anesthesia strategies for perioperative pain management. The review addresses the urgent need for opioid-sparing approaches in the context of the ongoing United States opioid epidemic, which resulted in approximately 81,000 overdose deaths in 2023 according to CDC provisional data.
+This repository contains educational materials developed for medical school application portfolio purposes and is not intended for clinical application.
 
-The manuscript synthesizes evidence from 2020-2024 demonstrating that multimodal non-opioid anesthesia (NOA) protocols achieve substantial perioperative opioid reduction (50-80%) across diverse surgical specialties while maintaining acceptable analgesia. The review prioritizes orthopedic and abdominal surgeries due to their high opioid burden and robust evidence base, and includes detailed analysis of integration with Enhanced Recovery After Surgery (ERAS) protocols, safety profiles, implementation barriers, and translational clinical protocols.
+**This is not:**
+- Medical advice or clinical guidance
+- An institutional guideline or clinical protocol
+- Approved for clinical implementation
+- A substitute for clinical judgment or attending oversight
 
-**Repository Topics:** non-opioid anesthesia, multimodal analgesia, perioperative pain management, opioid crisis, ERAS protocols, dexmedetomidine, ketamine, regional anesthesia, opioid-sparing strategies, narrative review
+**This is:**
+- Independent pre-medical research manuscript
+- Literature synthesis using SANRA methodology
+- Medical school application portfolio material
+- Educational demonstration of systematic review competency
+
+---
+
+## Disclaimers
+
+**Institutional Affiliation:**  
+This is an independent educational project. It is not an official University of Washington or UW Medicine document and is not affiliated with, endorsed by, or approved by UW Medicine, its faculty, or staff.
+
+**Clinical Use:**  
+Any clinical consideration of non-opioid anesthesia protocols requires institutional review, governance approval, and attending anesthesiologist supervision. Evidence synthesis in this manuscript does not constitute clinical recommendation. All protocols must be individualized to patient-specific factors and local institutional policies.
+
+**Liability:**  
+This work is provided "as is" without warranty of any kind. Users assume full responsibility for any use of these materials.
+
+**Author Status:**  
+Pre-medical student. Not a licensed healthcare professional. Not engaged in clinical practice or protocol implementation.
+
+---
+
+## Manuscript Information
+
+**Title:** Non-Opioid Anesthesia for Perioperative Pain Management: Evidence, Implementation, and Future Directions — A Narrative Review
+
+**Author:** Collin B. George, BS  
+**Project Type:** Independent pre-medical research manuscript  
+**Methodology:** SANRA-compliant narrative review  
+**Status:** Publication-ready  
+**Initial Publication Date:** November 5, 2024  
+**Word Count:** Approximately 4,200 words (main text and abstract)  
+**DOI:** 10.5281/zenodo.17537969
+
+---
+
+## Repository Description
+
+This repository contains the complete manuscript and supplementary materials for a comprehensive narrative review examining non-opioid anesthesia strategies for perioperative pain management. The review addresses opioid-sparing approaches in the context of the ongoing United States opioid epidemic, which resulted in approximately 81,000 overdose deaths in 2023 according to CDC provisional data.
+
+**Educational Purpose:**  
+This work demonstrates systematic literature review methodology, evidence synthesis competency, and understanding of perioperative pain management strategies. It represents independent scholarly work for medical school application portfolio purposes.
 
 ---
 
 ## Abstract
 
-**Background:** The United States opioid epidemic, with approximately 81,000 opioid-related overdose deaths in 2023, necessitates safer perioperative pain management strategies. Non-opioid anesthesia (NOA) employs multimodal approaches to minimize opioid exposure while maintaining effective analgesia.
+**Background:**  
+The United States opioid epidemic, with approximately 81,000 opioid-related overdose deaths in 2023, necessitates safer perioperative pain management strategies. Non-opioid anesthesia (NOA) employs multimodal approaches to minimize opioid exposure while maintaining effective analgesia.
 
-**Objective:** To synthesize recent evidence (2020-2024) on NOA's efficacy, safety profile, and integration with Enhanced Recovery After Surgery (ERAS) protocols, prioritizing orthopedic and abdominal surgeries where evidence is strongest.
+**Objective:**  
+To synthesize recent evidence (2020-2024) on NOA's efficacy, safety profile, and integration with Enhanced Recovery After Surgery (ERAS) protocols, prioritizing orthopedic and abdominal surgeries where evidence is strongest.
 
-**Methods:** This narrative review followed SANRA (Scale for the Assessment of Narrative Review Articles) principles, conducting comprehensive searches of PubMed, Scopus, and Cochrane Library through September 2024. Studies were selected based on relevance to NOA strategies including regional anesthesia, dexmedetomidine, ketamine, and ERAS protocols. Quality was assessed narratively using established frameworks (Cochrane Risk of Bias 2.0, AMSTAR-2).
+**Methods:**  
+This narrative review followed SANRA (Scale for the Assessment of Narrative Review Articles) principles, conducting comprehensive searches of PubMed, Scopus, and Cochrane Library through September 2024. Studies were selected based on relevance to NOA strategies including regional anesthesia, dexmedetomidine, ketamine, and ERAS protocols. Quality was assessed narratively using established frameworks (Cochrane Risk of Bias 2.0, AMSTAR-2).
 
-**Results:** NOA reduced perioperative opioid consumption by 50-80% across surgical specialties, with strongest evidence in orthopedic (65-75%) and abdominal (60-75%) procedures. Trade-offs included modestly higher postoperative pain scores in some studies (mean difference 0.39 on 0-10 scale, 95% CI 0.19-0.59). Regional anesthesia combined with multimodal agents shortened hospital length of stay by 1-2 days and reduced postoperative nausea and vomiting by up to 55% (RR 0.45). Adjunctive agents including dexmedetomidine and ketamine optimized analgesia but increased risks of bradycardia (5-15%) and hypotension (10-20%). Evidence for reduced opioid use disorder relapse remains preliminary (10-18% reduction, short-term follow-up only).
+**Results:**  
+NOA reduced perioperative opioid consumption by 50-80% across surgical specialties, with strongest evidence in orthopedic (65-75%) and abdominal (60-75%) procedures. Trade-offs included modestly higher postoperative pain scores in some studies (mean difference 0.39 on 0-10 scale, 95% CI 0.19-0.59). Regional anesthesia combined with multimodal agents shortened hospital length of stay by 1-2 days and reduced postoperative nausea and vomiting by up to 55% (RR 0.45). Adjunctive agents including dexmedetomidine and ketamine optimized analgesia but increased risks of bradycardia (5-15%) and hypotension (10-20%). Evidence for reduced opioid use disorder relapse remains preliminary (10-18% reduction, short-term follow-up only).
 
-**Conclusions:** NOA demonstrates substantial opioid-sparing effects with acceptable trade-offs in selected surgical populations. Wider adoption requires protocol standardization, enhanced clinician training, and long-term safety monitoring. Future research should prioritize adequately powered trials with extended follow-up to establish NOA's role in addressing the opioid crisis.
+**Conclusions:**  
+NOA strategies substantially reduce perioperative opioid exposure across surgical specialties while maintaining acceptable analgesia when implemented within comprehensive multimodal protocols. Clinical translation requires institutional commitment to ERAS pathways, provider education, and systems-level optimization. Future research should prioritize long-term addiction outcomes, cost-effectiveness analysis, and patient-centered outcome measures beyond opioid consumption metrics.
 
-**Keywords:** non-opioid anesthesia; opioid-free anesthesia; multimodal analgesia; perioperative pain; ERAS; dexmedetomidine; ketamine; opioid crisis
+---
+
+## Repository Contents
+
+### Main Manuscript Files
+```
+non-opioid-anesthesia-narrative-review/
+├── README.md                          # This file
+├── main.tex                           # LaTeX source (main manuscript)
+├── bibliography.bib                   # Complete bibliography (Vancouver style)
+├── manuscript.pdf                     # Compiled manuscript (PDF)
+├── supplementary.tex                  # Supplementary materials (LaTeX)
+├── supplementary.pdf                  # Compiled supplementary materials (PDF)
+└── figures/                           # All manuscript figures
+    ├── Figure 1: Multimodal NOA Mechanism
+    ├── Figure 2: Literature Search and Study Selection Flowchart
+    ├── Figure 3: Representative Opioid Reduction Percentages
+    └── Figure 4: Perioperative Timeline of NOA Within ERAS Protocols
+```
+
+### Manuscript Components
+
+**Main Manuscript (`manuscript.pdf`):**
+- Complete narrative review (4,200 words)
+- SANRA-compliant methodology
+- Evidence synthesis tables
+- Four primary figures
+
+**Supplementary Materials (`supplementary.pdf`):**
+- Extended methodology details
+- Comprehensive evidence tables (Tables 5-6)
+- Additional safety data
+- Implementation protocols
+
+**Figures:**
+1. **Multimodal NOA Mechanism:** Pharmacologic synergy visualization
+2. **Literature Search Flowchart:** PRISMA-style study selection
+3. **Opioid Reduction by Specialty:** Quantitative synthesis
+4. **Perioperative NOA Timeline:** ERAS integration diagram
 
 ---
 
 ## Key Findings
 
-1. **Opioid Reduction:** Substantial perioperative opioid reduction (50-80%) across surgical specialties, with strongest evidence in orthopedic (65-75%) and abdominal (60-75%) procedures
+### Opioid Reduction Efficacy
 
-2. **Analgesia Quality:** Non-inferior pain control with modestly higher pain scores in some studies (mean difference +0.39 on VAS 0-10 scale, 95% CI 0.19-0.59)
+**Overall Reduction:**
+- 50-80% reduction in perioperative opioid consumption across specialties
+- Orthopedic surgery: 65-75% reduction (strongest evidence)
+- Abdominal surgery: 60-75% reduction
+- Gynecologic surgery: 55-70% reduction
 
-3. **ERAS Integration:** Synergistic benefits including shortened hospital length of stay (1-2 days, 95% CI: -2.0 to -1.5 days) and reduced postoperative nausea/vomiting (25-35%)
+**Clinical Outcomes:**
+- Hospital length of stay: 1-2 days shorter with NOA + regional anesthesia
+- PONV reduction: Up to 55% (RR 0.45)
+- Time to mobilization: Earlier in NOA groups (mean 6-12 hours)
+- Patient satisfaction: Generally comparable or improved
 
-4. **Safety Profile:** Favorable overall safety with hemodynamic effects requiring monitoring (bradycardia 5-15%, hypotension 10-20%); superior respiratory safety compared to opioid-based approaches
+### Trade-Offs and Safety Considerations
 
-5. **Clinical Translation:** Comprehensive perioperative protocol framework comparing traditional opioid-based versus NOA approaches across all phases, including specific contraindications for patient selection
+**Pain Management:**
+- Modestly higher early pain scores in some NOA protocols (mean difference 0.39, 95% CI 0.19-0.59)
+- Clinically acceptable when multimodal approach optimized
+- Regional anesthesia mitigates early pain score differences
 
-6. **Evidence Gaps:** Protocol heterogeneity, limited long-term outcome data, and under-representation of pediatric and geriatric populations identified as critical research priorities
+**Hemodynamic Effects:**
+- Dexmedetomidine: Bradycardia (5-15%), hypotension (10-20%)
+- Ketamine: Generally hemodynamically stable, occasional hypertension
+- Magnesium: Minimal hemodynamic impact at typical doses
 
-7. **Primary Prevention Potential:** By minimizing or eliminating perioperative opioid exposure, NOA addresses a critical public health concern: 10-20% of opioid-naïve surgical patients develop persistent opioid use post-surgery (rising to 20-30% in high-risk populations). With approximately 50 million surgical procedures annually in the United States, NOA implementation could potentially prevent hundreds of thousands of new opioid dependency cases each year.
+**Monitoring Requirements:**
+- Enhanced monitoring for dexmedetomidine (HR, BP)
+- Standard ASA monitoring generally sufficient for other adjuncts
+- Institutional protocols vary
 
----
+### Implementation Barriers
 
-## Repository Structure
+**Provider-Level:**
+- Knowledge gaps regarding NOA protocols (38-52% reported unfamiliarity)
+- Concern about inadequate analgesia (primary barrier in surveys)
+- Workflow disruption during initial implementation
 
-```
-├── README.md                          # This file
-├── manuscript.tex                     # Main manuscript LaTeX source
-├── bibliography.bib                   # Complete bibliographic references
-├── Figure1                            # NOA mechanism diagram (TikZ)
-├── Figure2                            # Literature search flowchart (TikZ)
-├── Figure3                            # Opioid reduction data (PGFPlots)
-└── Figure4                            # ERAS timeline (TikZ)
-├── tables/                            # Supplementary table sources
-├── compiled/                          # Pre-compiled PDF outputs
-│   ├── manuscript.pdf                # Main manuscript (latest version)
-│   └── supplementary.pdf             # Supplementary materials (tables)
-└── LICENSE                            # Repository license information
-```
+**Systems-Level:**
+- Formulary restrictions (19% institutions reported limited access)
+- Lack of standardized protocols (62% institutions)
+- Inadequate ERAS infrastructure (45% institutions)
+
+**Patient-Level:**
+- Chronic opioid use (tolerance complicates NOA efficacy)
+- Patient preference for opioids (educational opportunity)
+- Inadequate preoperative counseling
 
 ---
 
 ## Methodology
 
-**Review Framework:** Scale for the Assessment of Narrative Review Articles (SANRA)
+### SANRA Compliance
 
-**Literature Search:**
-- **Databases:** PubMed/MEDLINE, Scopus, Cochrane Library
-- **Search Period:** January 2020 - September 2024 (with select foundational works from 2010-2015)
-- **Search Strategy:** Comprehensive Boolean search combining MeSH terms and free-text keywords
-- **Initial Results:** Approximately 1,200 records identified
-- **Final Inclusion:** 45-50 studies after systematic screening
+This narrative review adheres to SANRA (Scale for the Assessment of Narrative Review Articles) standards:
+
+**SANRA Domains Addressed:**
+1. Importance of reviewed topic for general readership
+2. Statement and specification of review questions/aims
+3. Description of literature search
+4. Referencing appropriate and comprehensive
+5. Scientific reasoning appropriate
+6. Presentation of data appropriate
 
 **Quality Assessment:**
-- **Randomized Controlled Trials:** Cochrane Risk of Bias 2.0 tool
-- **Systematic Reviews/Meta-analyses:** AMSTAR-2 (A MeaSurement Tool to Assess systematic Reviews)
-- **Evidence Grading:** Hierarchical certainty assessment (high, moderate, low)
+- Cochrane Risk of Bias 2.0 for randomized controlled trials
+- AMSTAR-2 for systematic reviews and meta-analyses
+- Narrative synthesis of heterogeneous evidence
 
-**Synthesis Approach:** Narrative synthesis due to substantial protocol heterogeneity and high statistical heterogeneity (I² > 75%) across meta-analyses
+### Search Strategy
 
-**SANRA Compliance:** Self-assessment score 12/12 across all six domains (importance justification, aims statement, literature description, referencing, scientific reasoning, evidence presentation)
+**Databases:**
+- PubMed/MEDLINE
+- Scopus
+- Cochrane Library
+- Web of Science (selective)
+
+**Search Period:**
+- January 2020 - September 2024
+- Selected earlier foundational studies included for context
+
+**Search Terms:**
+- Non-opioid anesthesia, opioid-free anesthesia, multimodal analgesia
+- Dexmedetomidine, ketamine, regional anesthesia
+- ERAS, enhanced recovery
+- Perioperative pain management, opioid-sparing
+
+**Inclusion Criteria:**
+- Human studies (adult surgical populations)
+- English language
+- Peer-reviewed publications
+- Relevance to NOA strategies
+
+**Exclusion Criteria:**
+- Pediatric populations (distinct pharmacology)
+- Case reports (insufficient evidence level)
+- Non-surgical pain management
+- Chronic pain management (out of scope)
+
+**Study Selection:**
+- See Figure 2 (Literature Search and Study Selection Flowchart) in manuscript
 
 ---
 
-## Key Manuscript Components
+## Evidence Synthesis Structure
 
-### Tables
-- **Table 1:** SANRA Self-Assessment for Narrative Review Quality
-- **Table 2:** Literature Search Strategy
-- **Table 3:** Comparative Outcomes (NOA vs. Traditional Opioid-Based Anesthesia)
-- **Table 4:** Opioid-Sparing Effects Across Surgical Specialties
-- **Table 5:** Comparative Premedication Strategy (Midazolam vs. Dexmedetomidine)
-- **Table 6:** Master Protocol Table - Perioperative Anesthesia Framework comparing Traditional Opioid-Based vs. Non-Opioid (NOA) approaches across all phases with contraindications
+### By Surgical Specialty
 
-### Figures
-- **Figure 1:** Mechanistic pathways of multimodal non-opioid anesthesia (TikZ diagram)
-- **Figure 2:** Literature search and study selection flowchart (PRISMA-style)
-- **Figure 3:** Representative opioid reduction percentages across surgical specialties (PGFPlots)
-- **Figure 4:** Perioperative timeline of NOA within ERAS protocols (TikZ diagram)
+**Orthopedic Surgery:**
+- Total joint arthroplasty (TKA, THA)
+- Spine surgery
+- Trauma/fracture repair
 
-All figures are publication-quality vector graphics generated using TikZ/PGFPlots for reproducibility and scalability.
+**Abdominal Surgery:**
+- Colorectal procedures
+- Bariatric surgery
+- Hepatobiliary surgery
+
+**Other Specialties:**
+- Gynecologic surgery
+- Urologic procedures
+- Breast surgery
+
+### By NOA Component
+
+**Regional Anesthesia:**
+- Neuraxial techniques (epidural, spinal)
+- Peripheral nerve blocks (varies by surgery)
+- Truncal blocks (TAP, QL, ESP)
+
+**Systemic Adjuncts:**
+- Alpha-2 agonists (dexmedetomidine)
+- NMDA antagonists (ketamine, magnesium)
+- Local anesthetic infusions (lidocaine, institutional protocol-dependent)
+- Non-opioid analgesics (acetaminophen, NSAIDs)
+
+### Integration with ERAS
+
+**Preoperative:**
+- Patient education and expectation management
+- Preemptive multimodal analgesia
+- Opioid use disorder screening
+
+**Intraoperative:**
+- Regional anesthesia placement
+- Multimodal adjunct administration
+- Minimal intraoperative opioid use
+
+**Postoperative:**
+- Scheduled non-opioid analgesics
+- Opioid rescue protocols (when indicated)
+- Early mobilization and discharge planning
 
 ---
 
 ## Compilation Instructions
 
-### Prerequisites
+### Building from LaTeX Source
 
-A complete LaTeX distribution (TeX Live, MiKTeX, or MacTeX) with the following packages:
-- Document class: `article`
-- Graphics: `tikz`, `pgfplots`, `graphicx`
-- Tables: `booktabs`, `array`, `multirow`
-- Bibliography: `natbib`
-- Units: `siunitx`
-- Formatting: `geometry`, `setspace`, `fancyhdr`, `enumitem`
-- Colors: `xcolor`
-- Hyperlinks: `hyperref`
+**Requirements:**
+- TeX distribution (TeX Live, MiKTeX, or MacTeX)
+- BibTeX or Biber for bibliography
+- Standard LaTeX packages (see `main.tex` preamble)
 
-### Compilation Process
-
-#### Standard compilation (with bibliography):
+**Compile manuscript:**
 ```bash
-pdflatex manuscript.tex
-bibtex manuscript
-pdflatex manuscript.tex
-pdflatex manuscript.tex
+pdflatex main.tex
+bibtex main
+pdflatex main.tex
+pdflatex main.tex
 ```
 
-#### Alternative: Using latexmk (automated):
+**Compile supplementary materials:**
 ```bash
-latexmk -pdf manuscript.tex
+pdflatex supplementary.tex
+bibtex supplementary
+pdflatex supplementary.tex
+pdflatex supplementary.tex
 ```
 
-#### Quick compilation (without bibliography updates):
-```bash
-pdflatex manuscript.tex
-```
-
-### Pre-compiled Version
-
-For convenience, a pre-compiled PDF (`compiled/manuscript.pdf`) is included in the repository. This version reflects the latest manuscript state and can be viewed directly without local compilation.
-
----
-
-## Clinical Significance
-
-This review provides a translational framework for implementing non-opioid anesthesia protocols in clinical practice:
-
-1. **Evidence-Based Protocol Development:** Comprehensive comparison of traditional opioid-based versus NOA approaches across all perioperative phases (preoperative, induction/maintenance, emergence/postoperative)
-
-2. **Patient Selection Guidance:** Explicit contraindications and higher-risk scenarios where opioid-based anesthesia may remain the safer choice
-
-3. **Implementation Barriers:** Detailed analysis of training requirements, resource constraints, protocol heterogeneity, and economic considerations
-
-4. **Policy Implications:** Recommendations for workforce development, financial incentive alignment, and standardization through multi-society consensus guidelines
-
-5. **Research Priorities:** Identification of critical evidence gaps requiring future investigation (long-term outcomes, special populations, cost-effectiveness)
+**Overleaf:**
+- Import entire repository to Overleaf
+- Compile with PDF LaTeX + BibTeX
+- Pre-compiled PDFs provided for convenience
 
 ---
 
 ## Citation
 
-If you use this work in your research, please cite:
-
-```
-George, C.B. (2024). Non-Opioid Anesthesia for Perioperative Pain Management: 
+If you reference this work in presentations or academic writing:
+```text
+George CB. Non-Opioid Anesthesia for Perioperative Pain Management: 
 Evidence, Implementation, and Future Directions — A Narrative Review. 
-DOI: 10.5281/zenodo.17537969
+Published November 2024. DOI: 10.5281/zenodo.17537969. Available from: 
+https://github.com/collingeorge/non-opioid-anesthesia-narrative-review 
+[Accessed: date]
 ```
 
-BibTeX entry:
-```bibtex
-@article{george2024noa,
-  title={Non-Opioid Anesthesia for Perioperative Pain Management: Evidence, Implementation, and Future Directions --- A Narrative Review},
-  author={George, Collin B.},
-  year={2024},
-  month={November},
-  doi={10.5281/zenodo.17537969},
-  note={Independent research manuscript},
-  institution={University of Washington Medical Center}
-}
-```
+**If manuscript is published in peer-reviewed journal:**  
+Update citation with journal name, volume, pages, and DOI when available.
 
 ---
 
-## Contact Information
+## Author Information
 
-**Collin B. George, BS**  
-University of Washington Medical Center  
-Seattle, WA, USA
+**Author:** Collin B. George, BS  
+**Project Type:** Independent pre-medical research manuscript  
+**Educational Context:** SANRA-compliant narrative review of NOA strategies  
+**Status:** Preparing for medical school matriculation 2026
 
-Email: cbg24@uw.edu  
-ORCID: [0009-0007-8162-6839](https://orcid.org/0009-0007-8162-6839)
-
----
-
-## Funding and Conflicts of Interest
-
-**Funding:** None. This independent research was conducted without external financial support.
-
-**Conflicts of Interest:** The author declares no conflicts of interest.
-
----
-
-## License
-
-This work is made available under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to share and adapt the material for any purpose, even commercially, under the following terms:
-
-- **Attribution:** You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-- **No additional restrictions:** You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
-
-Full license text: https://creativecommons.org/licenses/by/4.0/
+**GitHub:** github.com/collingeorge  
+**ORCID:** 0009-0007-8162-6839  
+**DOI:** 10.5281/zenodo.17537969  
+**License:** CC BY 4.0
 
 ---
 
 ## Acknowledgments
 
-The author gratefully acknowledges mentors and colleagues at the University of Washington Department of Anesthesiology and Pain Medicine for valuable discussions on multimodal analgesia and opioid-sparing strategies. This work is dedicated to advancing patient safety and addressing the ongoing opioid crisis through evidence-based perioperative care.
+This educational manuscript was informed by:
 
-Complete acknowledgments, including individual dedications, are provided in the full manuscript.
+**Published Literature:**
+- Perioperative pain management research (2020-2024)
+- ERAS Society guidelines and recommendations
+- ASRA practice advisories on multimodal analgesia
 
----
+**Educational Support:**
+The author is grateful to University of Washington faculty for educational guidance in perioperative medicine and evidence synthesis methodology that informed this work.
 
-## Version History
-
-**v1.0** (November 5, 2024): Initial publication-ready manuscript
-- Complete narrative review with SANRA compliance
-- 45-50 studies synthesized from 2020-2024 literature
-- Comprehensive clinical protocol framework
-- Publication-quality TikZ/PGFPlots figures
+This manuscript represents independent scholarly work and does not constitute collaboration with any institution or clinical practice.
 
 ---
 
-## Contributing
+## License
 
-This is an independent research manuscript currently under review for publication. Questions, comments, or suggestions for future work can be directed to the author via email.
+This work is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+**You are free to:**
+- Share and redistribute the material in any medium or format
+- Adapt, remix, transform, and build upon the material for any purpose
+
+**Under the following terms:**
+- **Attribution:** Give appropriate credit to Collin B. George, provide a link to the license, and indicate if changes were made
+- Do not suggest that the author or any institution endorses you or your use
+
+**Full license:** https://creativecommons.org/licenses/by/4.0/
+
+© 2024 Collin B. George — Licensed under CC BY 4.0
 
 ---
 
-**Disclaimer:** The views expressed in this work are those of the author and do not necessarily represent the views of the University of Washington or UW Medicine. The author's affiliation is provided for identification purposes only; this research was conducted independently and received no institutional funding or sponsorship.
+## Keywords
+
+Non-Opioid Anesthesia, Multimodal Analgesia, Perioperative Pain Management, Opioid Crisis, ERAS Protocols, Dexmedetomidine, Ketamine, Regional Anesthesia, Opioid-Sparing Strategies, Narrative Review, SANRA Methodology, Enhanced Recovery After Surgery
+
+---
