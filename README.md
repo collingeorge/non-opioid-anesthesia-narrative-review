@@ -113,13 +113,13 @@ It is not intended for direct patient care, real-world protocol adoption, or uns
 **Vancouver**
 
 ```text
-George CB. Non-opioid anesthesia for perioperative pain management: evidence, implementation, and future directions [Internet]. Independent narrative review. 2024. Available from: [https://github.com/collingeorge/non-opioid-anesthesia-narrative-review](https://github.com/collingeorge/non-opioid-anesthesia-narrative-review)
+George CB. Non-opioid anesthesia for perioperative pain management: evidence, implementation, and future directions [Internet]. Independent narrative review. 2024. Available from: https://github.com/collingeorge/non-opioid-anesthesia-narrative-review
 ```
 
 **APA**
 
 ```text
-George, C. B. (2024). Non-opioid anesthesia for perioperative pain management: Evidence, implementation, and future directions [Independent narrative review]. GitHub. [https://github.com/collingeorge/non-opioid-anesthesia-narrative-review](https://github.com/collingeorge/non-opioid-anesthesia-narrative-review)
+George, C. B. (2024). Non-opioid anesthesia for perioperative pain management: Evidence, implementation, and future directions [Independent narrative review]. GitHub. https://github.com/collingeorge/non-opioid-anesthesia-narrative-review
 ```
 
 **DOI**
@@ -132,8 +132,8 @@ George CB. Non-Opioid Anesthesia for Perioperative Pain Management: Evidence, Im
 
 ## Author
 
-**Collin B. George, BS** ORCID: [0009-0007-8162-6839](https://orcid.org/0009-0007-8162-6839)
-
+**Collin B. George, BS**  
+ORCID: [0009-0007-8162-6839](https://orcid.org/0009-0007-8162-6839)  
 GitHub: [github.com/collingeorge](https://github.com/collingeorge)
 
 This is an independent scholarly work. It is not affiliated with, endorsed by, reviewed by, or issued on behalf of the University of Washington, UW Medicine, or any healthcare institution, professional society, governmental body, or regulatory authority. All interpretations, conclusions, and any errors are solely the responsibility of the author.
