@@ -114,21 +114,18 @@ It is not intended for direct patient care, real-world protocol adoption, or uns
 
 ```text
 George CB. Non-opioid anesthesia for perioperative pain management: evidence, implementation, and future directions [Internet]. Independent narrative review. 2024. Available from: [https://github.com/collingeorge/non-opioid-anesthesia-narrative-review](https://github.com/collingeorge/non-opioid-anesthesia-narrative-review)
-
 ```
 
 **APA**
 
 ```text
 George, C. B. (2024). Non-opioid anesthesia for perioperative pain management: Evidence, implementation, and future directions [Independent narrative review]. GitHub. [https://github.com/collingeorge/non-opioid-anesthesia-narrative-review](https://github.com/collingeorge/non-opioid-anesthesia-narrative-review)
-
 ```
 
 **DOI**
 
 ```text
 George CB. Non-Opioid Anesthesia for Perioperative Pain Management: Evidence, Implementation, and Future Directions. Zenodo; 2024. doi:10.5281/zenodo.17537969
-
 ```
 
 ---
