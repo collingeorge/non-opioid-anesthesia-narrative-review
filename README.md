@@ -277,15 +277,7 @@ This is an independent scholarly work. It is not affiliated with, endorsed by, r
 
 Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-© 2024 Collin B. GeorgeD: [0009-0007-8162-6839](https://orcid.org/0009-0007-8162-6839)
+© 2026 Collin B. GeorgeD: [0009-0007-8162-6839](https://orcid.org/0009-0007-8162-6839)
 GitHub: [github.com/collingeorge](https://github.com/collingeorge)
 
 This is an independent scholarly work. It is not affiliated with, endorsed by, reviewed by, or issued on behalf of the University of Washington, UW Medicine, or any healthcare institution, professional society, governmental body, or regulatory authority. All interpretations, conclusions, and any errors are solely the responsibility of the author.
-
----
-
-## License
-
-Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-
-© 2024 Collin B. George
