@@ -1,0 +1,18 @@
+{
+  "version": "2026.10-rc1",
+  "method": "ReportLab export from Markdown; not a successful TeX compilation",
+  "documents": [
+    {
+      "source": "MANUSCRIPT.md",
+      "pdf": "Non_Opioid_Anesthesia_for_Perioperative_Pain_Management__Evidence__Implementation__and_Future_Directions___A_Narrative_Review.pdf",
+      "source_sha256": "c1326e4f5a9e05c0bf5b49162902f6497afdf0557986fe78606de318239a2c2c",
+      "pdf_sha256": "28fe0d40ed7d8c22e5eb5c4a1c09f2c19400063ed9a998fa85f3936a451f63d3"
+    },
+    {
+      "source": "EVIDENCE_AUDIT.md",
+      "pdf": "supplementary.pdf",
+      "source_sha256": "35334fbe08ce2cec0905a3f0a338bf5fda9ba3f7a06f213261b0749a336f28a8",
+      "pdf_sha256": "eaef75eb798ffd9747383612dbac096f4a4e3b88677a202cad3f8212076e6c83"
+    }
+  ]
+}

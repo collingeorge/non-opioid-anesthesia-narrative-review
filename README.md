@@ -10,9 +10,9 @@ The earlier source asserted two independent reviewers, agreement statistics, app
 
 - [main.tex](main.tex): revised educational evidence overview.
 - [supplementary.tex](supplementary.tex): provenance and evidence-audit requirements.
-- bibliography.bib and historical figure assets: retained for audit, not certified as verified citations or extraction data.
+- bibliography.bib: limited bibliography for the revised overview; historical figures are retired.
 
-The existing compiled manuscript and supplementary PDF predate this revision and are superseded pending replacement. Do not present them as the current revision. Any earlier DOI identifies its deposited version, not automatic validation or publication of this revision.
+The manuscript and supplementary PDFs are rebuilt from [MANUSCRIPT.md](MANUSCRIPT.md) and [EVIDENCE_AUDIT.md](EVIDENCE_AUDIT.md). Historical PDF filenames are retained for link compatibility. Retired figure files now contain retirement notices, not verified results. Any earlier DOI identifies its deposited version, not automatic validation or publication of this revision.
 
 ## Evidence boundaries
 
