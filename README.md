@@ -25,3 +25,7 @@ Author: Collin B. George, BS. Independent educational portfolio; no institutiona
 The prior README states CC BY 4.0. This revision preserves that stated license for the author's original material. It does not license third-party content or determine the rights status of legacy figures.
 
 See [PUBLICATION_REVIEW.md](PUBLICATION_REVIEW.md) before release.
+
+## Published correction
+
+The author-approved [corrected educational overview and supersession notice](https://zenodo.org/records/23705335) was published on 27 October 2026, version 2026.10-rc2, DOI 10.5281/zenodo.23705335. It withdraws unsupported historical review-method, generalized efficacy and dosing claims. Earlier versions remain part of the record; the correction does not establish clinical validation.
