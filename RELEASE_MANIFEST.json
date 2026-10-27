@@ -1,5 +1,5 @@
 {
-  "candidate": "2026.10-rc1",
+  "candidate": "2026.10-rc2",
   "public_release": false,
   "history_included": false,
   "history_audited": false,
@@ -13,13 +13,13 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 542,
-      "sha256": "9effe19e07d2d0566c1d5de643bb951db4068dd3ef7b65ae400d246cce6487b2"
+      "bytes": 572,
+      "sha256": "5184af6cca4c3ae964fed165a3f52fd917b834a4bec4d0816545cc3de1f5ff47"
     },
     {
       "path": "DOCUMENT_BUILD.json",
-      "bytes": 763,
-      "sha256": "8b7bb57bc4a29e97d1fb9dcb46d01cf25075c88b96af1e43385dabc5ecca005c"
+      "bytes": 928,
+      "sha256": "8f6f4fb4ce4311bee8a7db30758394303439860ced69137f4092d344678eb393"
     },
     {
       "path": "EVIDENCE_AUDIT.md",
@@ -47,6 +47,11 @@
       "sha256": "aa9d593db281b6cb3a861cff0f59f6e9a15808ffbcc7fe56d0b4a96dca728be6"
     },
     {
+      "path": "HISTORICAL_VERSION_NOTICE.md",
+      "bytes": 1770,
+      "sha256": "fdf98aafe59f7748ff1cc9b62ea1a08ec425c1eb2b1a46dfdbed13ba697bd66c"
+    },
+    {
       "path": "LICENSE",
       "bytes": 446,
       "sha256": "82f3030c7953f80156214905d5b3e26b7136264ea608428df0530e95fc1dfd76"
@@ -63,28 +68,33 @@
     },
     {
       "path": "Non_Opioid_Anesthesia_for_Perioperative_Pain_Management__Evidence__Implementation__and_Future_Directions___A_Narrative_Review.pdf",
-      "bytes": 78251,
-      "sha256": "28fe0d40ed7d8c22e5eb5c4a1c09f2c19400063ed9a998fa85f3936a451f63d3"
+      "bytes": 78252,
+      "sha256": "7433c2006fa94ddb0fac6230744cf97440068f1c8aec561144eac2180d254b6f"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 1418,
+      "sha256": "e8d321b9ad4f01b4a53b25d5310b57b9c4d2aa14c28bc340a00fb8acfdb5a264"
     },
     {
       "path": "PUBLICATION_REVIEW.md",
-      "bytes": 2393,
-      "sha256": "42d03baa44374d7b71387353849171d3d346abf9b6b58fc68c7627f5f681f9cd"
+      "bytes": 2570,
+      "sha256": "1675a87385af597a78d6d5914176c1d7041d4239ae1887b8fd47b5f5f854d0f7"
     },
     {
       "path": "README.md",
-      "bytes": 2706,
-      "sha256": "ae5efa4d60fa3540b3b7d8f1ea8b128c3db97b3a298cd0e2bd8ff5fb9ee3a969"
+      "bytes": 3120,
+      "sha256": "82ef3b202d66c4158465432922d7b300c92d7f52b1e87cec00577157418ec5d7"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 539,
-      "sha256": "125e726502195a9431552106a89ceb2fffe81fc54540a77afdb75029e8bbfd7c"
+      "bytes": 610,
+      "sha256": "01f827257e76caabbc7bacfcd4ce085780b0dfe289a74058d2f1be760194423f"
     },
     {
       "path": "supplementary.pdf",
       "bytes": 74540,
-      "sha256": "eaef75eb798ffd9747383612dbac096f4a4e3b88677a202cad3f8212076e6c83"
+      "sha256": "4db417f2a6ea5496a620d9306581933fb96d82a468f6a26c3e44f685a4c7673a"
     },
     {
       "path": "supplementary.tex",
