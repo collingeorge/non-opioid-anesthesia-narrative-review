@@ -1,0 +1,95 @@
+{
+  "candidate": "2026.10-rc1",
+  "public_release": false,
+  "history_included": false,
+  "history_audited": false,
+  "secret_scan_scope": "Listed current files only; three high-confidence patterns. Not a full credential, PHI, copyright, or clinical audit.",
+  "findings": [],
+  "files": [
+    {
+      "path": "bibliography.bib",
+      "bytes": 937,
+      "sha256": "bf165e629c4b879578dd3f8659490efdb639a7c7d3f176345e1208db0c988a19"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 542,
+      "sha256": "9effe19e07d2d0566c1d5de643bb951db4068dd3ef7b65ae400d246cce6487b2"
+    },
+    {
+      "path": "DOCUMENT_BUILD.json",
+      "bytes": 763,
+      "sha256": "8b7bb57bc4a29e97d1fb9dcb46d01cf25075c88b96af1e43385dabc5ecca005c"
+    },
+    {
+      "path": "EVIDENCE_AUDIT.md",
+      "bytes": 1362,
+      "sha256": "35334fbe08ce2cec0905a3f0a338bf5fda9ba3f7a06f213261b0749a336f28a8"
+    },
+    {
+      "path": "Figure 1_ Multimodal NOA Mechanism",
+      "bytes": 264,
+      "sha256": "aa9d593db281b6cb3a861cff0f59f6e9a15808ffbcc7fe56d0b4a96dca728be6"
+    },
+    {
+      "path": "Figure 2_ Literature Search and Study Selection Flowchart",
+      "bytes": 264,
+      "sha256": "aa9d593db281b6cb3a861cff0f59f6e9a15808ffbcc7fe56d0b4a96dca728be6"
+    },
+    {
+      "path": "Figure 3_ Representative Opioid Reduction Percentages Representative Across Surgical Specialties",
+      "bytes": 264,
+      "sha256": "aa9d593db281b6cb3a861cff0f59f6e9a15808ffbcc7fe56d0b4a96dca728be6"
+    },
+    {
+      "path": "Figure 4_ Perioperative Timeline of NOA Within ERAS Protocols",
+      "bytes": 264,
+      "sha256": "aa9d593db281b6cb3a861cff0f59f6e9a15808ffbcc7fe56d0b4a96dca728be6"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 446,
+      "sha256": "82f3030c7953f80156214905d5b3e26b7136264ea608428df0530e95fc1dfd76"
+    },
+    {
+      "path": "main.tex",
+      "bytes": 6286,
+      "sha256": "2246baf0d5f3e2cd5993028d90185f7a6650d26dd373a68e0ead87834ac1c9d3"
+    },
+    {
+      "path": "MANUSCRIPT.md",
+      "bytes": 5920,
+      "sha256": "c1326e4f5a9e05c0bf5b49162902f6497afdf0557986fe78606de318239a2c2c"
+    },
+    {
+      "path": "Non_Opioid_Anesthesia_for_Perioperative_Pain_Management__Evidence__Implementation__and_Future_Directions___A_Narrative_Review.pdf",
+      "bytes": 78251,
+      "sha256": "28fe0d40ed7d8c22e5eb5c4a1c09f2c19400063ed9a998fa85f3936a451f63d3"
+    },
+    {
+      "path": "PUBLICATION_REVIEW.md",
+      "bytes": 2393,
+      "sha256": "42d03baa44374d7b71387353849171d3d346abf9b6b58fc68c7627f5f681f9cd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2706,
+      "sha256": "ae5efa4d60fa3540b3b7d8f1ea8b128c3db97b3a298cd0e2bd8ff5fb9ee3a969"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 539,
+      "sha256": "125e726502195a9431552106a89ceb2fffe81fc54540a77afdb75029e8bbfd7c"
+    },
+    {
+      "path": "supplementary.pdf",
+      "bytes": 74540,
+      "sha256": "eaef75eb798ffd9747383612dbac096f4a4e3b88677a202cad3f8212076e6c83"
+    },
+    {
+      "path": "supplementary.tex",
+      "bytes": 1626,
+      "sha256": "6391421a1c90573bad4631e6da0fe4fab64f8f5a5ad277c981cd5f48b62c1609"
+    }
+  ]
+}
