@@ -1,5 +1,15 @@
 # Non-opioid and opioid-sparing anesthesia: educational evidence overview
 
+
+## Applied clinical examples — 28 October 2026
+
+- [Topic-specific paired cases](APPLIED_CASES.md): 5 male/female pairs (10 synthetic profiles), with worked applications, options and source maps.
+- [Shared anesthesia options and cases](ANESTHESIA_OPTIONS_AND_CASES.md): the same four-modality guide and 12 general teaching cases used throughout the clinical portfolio.
+- [Example format and verification standard](CASE_EXAMPLE_STANDARD.md), [topic source audit](EXAMPLE_SOURCE_AUDIT.json), and [shared source audit](SHARED_SOURCE_AUDIT.json).
+
+These additions standardize educational reasoning and evidence documentation; they do not certify clinical correctness, guideline compliance or patient-care suitability. Existing manuscript/PDF content is retained.
+
+
 > Independent educational work. Not a clinical protocol, prescription, patient handout, or validated decision aid. This revision is a draft pending clinical and publication review.
 
 This revision narrows the earlier manuscript to a transparent discussion of selected published evidence. It does not claim a completed systematic review, independent duplicate screening, an original meta-analysis, a SANRA quality score, or verified search-flow counts.
