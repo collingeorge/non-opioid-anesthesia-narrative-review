@@ -1,6 +1,6 @@
 {
   "candidate": "2026.10-rc2",
-  "public_release": false,
+  "public_release": true,
   "history_included": false,
   "history_audited": false,
   "secret_scan_scope": "Listed current files only; three high-confidence patterns. Not a full credential, PHI, copyright, or clinical audit.",
@@ -83,13 +83,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3120,
-      "sha256": "82ef3b202d66c4158465432922d7b300c92d7f52b1e87cec00577157418ec5d7"
+      "bytes": 3883,
+      "sha256": "01ef7bff1f845ea967c58519ebd8652d766896bc0e1e599f7fc168f744b0fc36"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 610,
-      "sha256": "01f827257e76caabbc7bacfcd4ce085780b0dfe289a74058d2f1be760194423f"
+      "bytes": 989,
+      "sha256": "6863d85e0a024fd6d50da0b1d67cf76e12df7861624d3cde27e84cfde5910be1"
     },
     {
       "path": "supplementary.pdf",
@@ -100,6 +100,37 @@
       "path": "supplementary.tex",
       "bytes": 1626,
       "sha256": "6391421a1c90573bad4631e6da0fe4fab64f8f5a5ad277c981cd5f48b62c1609"
+    },
+    {
+      "path": "APPLIED_CASES.md",
+      "bytes": 10595,
+      "sha256": "ace3a3b649f3929db5118aba1727929d48c0822f1fa01756928422d02cf0e94d"
+    },
+    {
+      "path": "EXAMPLE_SOURCE_AUDIT.json",
+      "bytes": 5033,
+      "sha256": "109469f3f68206ffa0d96ceb7535161d6d52f5ec61fb9b2c4f7e6da916804808"
+    },
+    {
+      "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
+      "bytes": 24999,
+      "sha256": "df94e6f475bacafafb9e9dea7ce3612545b59e7cde18f463f9086e33e398a13c"
+    },
+    {
+      "path": "SHARED_SOURCE_AUDIT.json",
+      "bytes": 4088,
+      "sha256": "7e6b4417f53571ef052e3fbe5b993fcab3af84a04d544b91b30191f743ee28d4"
+    },
+    {
+      "path": "CASE_EXAMPLE_STANDARD.md",
+      "bytes": 2519,
+      "sha256": "82ee781bc5ed0dc9edee2fb607f2a877d3cdc151bf982d072eac9d999c6de93b"
+    },
+    {
+      "path": "EXAMPLES_MANIFEST.json",
+      "bytes": 1325,
+      "sha256": "2bf089cc92159b447ea4b77c75325763694c4c0e0b059c6108e6470ffc9a9339"
     }
-  ]
+  ],
+  "supplement": "clinical-applied-cases-2026-10-28"
 }

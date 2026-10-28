@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-28",
+  "case_pairs": 5,
+  "synthetic_profiles": 10,
+  "sources": [
+    {
+      "id": "P",
+      "title": "Beloeil H et al. Balanced Opioid-free Anesthesia with Dexmedetomidine versus Balanced Anesthesia with Remifentanil. *Anesthesiology*. 2021. [10.1097/ALN.0000000000003725](https://doi.org/10.1097/ALN.0000000000003725)",
+      "doi": "10.1097/ALN.0000000000003725",
+      "scope": "Randomized evidence against assuming universal safety benefit from avoiding intraoperative opioids; did not test this software",
+      "checked": "See ANESTHESIA_OPTIONS_AND_CASES.md for source title, scope and source-type mapping"
+    },
+    {
+      "id": "B",
+      "title": "Joshi GP et al. 2026 ASA Practice Guideline on Perioperative Pain Management Using Local and Regional Analgesia for Cardiothoracic Surgeries, Mastectomy, and Abdominal Surgeries. *Anesthesiology*. [10.1097/ALN.0000000000005790](https://doi.org/10.1097/ALN.0000000000005790)",
+      "doi": "10.1097/ALN.0000000000005790",
+      "scope": "Procedure-specific local/regional adjunct recommendations; not sole-anesthetic selection",
+      "checked": "See ANESTHESIA_OPTIONS_AND_CASES.md for source title, scope and source-type mapping"
+    },
+    {
+      "id": "T",
+      "title": "Nimmo AF et al. Guidelines for the safe practice of total intravenous anaesthesia (TIVA). *Anaesthesia*. 2019. [10.1111/anae.14428](https://doi.org/10.1111/anae.14428)",
+      "doi": "10.1111/anae.14428",
+      "scope": "IV delivery and monitoring principles; no validation of Smart NOA",
+      "checked": "See ANESTHESIA_OPTIONS_AND_CASES.md for source title, scope and source-type mapping"
+    },
+    {
+      "id": "DEX",
+      "title": "Weerink et al. Dexmedetomidine pharmacology review (2017)",
+      "doi": "10.1007/s40262-017-0507-7",
+      "scope": "Dose contexts differ by indication; toy-model values are not validated by this review.",
+      "checked": "Publisher/PubMed identity and available source text; not an exhaustive full-text appraisal"
+    },
+    {
+      "id": "LIDO",
+      "title": "Foo et al. IV lidocaine consensus (2021)",
+      "doi": "10.1111/anae.15270",
+      "scope": "High-risk IV use, ideal-body-weight context and avoidance of overlapping local-anesthetic interventions; not a complete regimen.",
+      "checked": "Publisher/PubMed identity and available source text; not an exhaustive full-text appraisal"
+    },
+    {
+      "id": "X",
+      "title": "Neal JM, Neal EJ, Weinberg GL. ASRA Local Anesthetic Systemic Toxicity checklist: 2020 version. *Regional Anesthesia and Pain Medicine*. 2021. [10.1136/rapm-2020-101986](https://doi.org/10.1136/rapm-2020-101986)",
+      "doi": "10.1136/rapm-2020-101986",
+      "scope": "Published toxicity response resource, not reproduced or replaced by this guide",
+      "checked": "See ANESTHESIA_OPTIONS_AND_CASES.md for source title, scope and source-type mapping"
+    },
+    {
+      "id": "KET",
+      "title": "Schwenk et al. Acute-pain ketamine consensus (2018)",
+      "doi": "10.1097/AAP.0000000000000806",
+      "scope": "Acute-pain adjunct context, not hypnosis or universal induction guidance.",
+      "checked": "Publisher/PubMed identity and available source text; not an exhaustive full-text appraisal"
+    },
+    {
+      "id": "S",
+      "title": "ASA and collaborating societies. Practice Guidelines for Moderate Procedural Sedation and Analgesia 2018. *Anesthesiology*. [10.1097/ALN.0000000000002043](https://doi.org/10.1097/ALN.0000000000002043)",
+      "doi": "10.1097/ALN.0000000000002043",
+      "scope": "Moderate-sedation assessment, monitoring and rescue context; not a deep-sedation recipe",
+      "checked": "See ANESTHESIA_OPTIONS_AND_CASES.md for source title, scope and source-type mapping"
+    },
+    {
+      "id": "QOR",
+      "title": "Stark et al. Development and psychometric evaluation of the QoR-15 (2013)",
+      "doi": "10.1097/ALN.0b013e318289b84b",
+      "scope": "Recovery is multidimensional; do not reproduce the questionnaire or interpret a synthetic score as validation.",
+      "checked": "Publisher/PubMed identity and available source text; not an exhaustive full-text appraisal"
+    }
+  ],
+  "cases": [
+    {
+      "id": "NOA-01",
+      "topic": "Define opioid-free phase versus multimodal care",
+      "sources": [
+        "P",
+        "B",
+        "T"
+      ]
+    },
+    {
+      "id": "NOA-02",
+      "topic": "Dexmedetomidine and patient risk",
+      "sources": [
+        "DEX",
+        "P"
+      ]
+    },
+    {
+      "id": "NOA-03",
+      "topic": "Lidocaine route and exposure",
+      "sources": [
+        "LIDO",
+        "X"
+      ]
+    },
+    {
+      "id": "NOA-04",
+      "topic": "Ketamine purpose and clinical assessment",
+      "sources": [
+        "KET",
+        "S"
+      ]
+    },
+    {
+      "id": "NOA-05",
+      "topic": "Recovery benefits and evidence claims",
+      "sources": [
+        "P",
+        "QOR"
+      ]
+    }
+  ],
+  "source_identity_checked": true,
+  "full_text_audit_complete": false,
+  "clinical_validation": false
+}
