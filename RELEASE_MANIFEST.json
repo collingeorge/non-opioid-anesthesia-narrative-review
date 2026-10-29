@@ -83,13 +83,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3883,
-      "sha256": "01ef7bff1f845ea967c58519ebd8652d766896bc0e1e599f7fc168f744b0fc36"
+      "bytes": 4037,
+      "sha256": "2669034dfd2255b3669eef283b99fba25dcce6154a1ecd02656b73504b5664d8"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 989,
-      "sha256": "6863d85e0a024fd6d50da0b1d67cf76e12df7861624d3cde27e84cfde5910be1"
+      "bytes": 1346,
+      "sha256": "c469908c988367dc320eeb84240d4cbd22d4848539ab5893435a83261cdd2875"
     },
     {
       "path": "supplementary.pdf",
@@ -128,9 +128,23 @@
     },
     {
       "path": "EXAMPLES_MANIFEST.json",
-      "bytes": 1325,
-      "sha256": "2bf089cc92159b447ea4b77c75325763694c4c0e0b059c6108e6470ffc9a9339"
+      "bytes": 1771,
+      "sha256": "f4862a358e2d850b0beb7953d8656789ad73d27fd90f6f71ac08ff08523c19ba"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1193,
+      "sha256": "8d42793606079156a8268f312f00ad40cf3b8125d807ca113968791c01c46bfe"
+    },
+    {
+      "path": "AUTHORSHIP_AND_REVIEW.md",
+      "bytes": 2300,
+      "sha256": "877c6588aeca9c5ddfd415912ea6f384ef55f1b760d8cef56a06feae264b8d2e"
     }
   ],
-  "supplement": "clinical-applied-cases-2026-10-28"
+  "supplement": "clinical-applied-cases-2026-10-28",
+  "presentation_update": {
+    "date": "2026-10-29",
+    "scope": "Navigation, authorship and presentation; prior audit scopes are not expanded"
+  }
 }
