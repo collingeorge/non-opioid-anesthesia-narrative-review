@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "scope": "Files added/edited for the applied-case supplement; not a full repository/history audit",
   "case_pairs": 5,
   "full_text_audit_complete": false,
@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 3883,
-      "sha256": "01ef7bff1f845ea967c58519ebd8652d766896bc0e1e599f7fc168f744b0fc36"
+      "bytes": 4037,
+      "sha256": "2669034dfd2255b3669eef283b99fba25dcce6154a1ecd02656b73504b5664d8"
     },
     {
       "path": "APPLIED_CASES.md",
@@ -37,8 +37,19 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 989,
-      "sha256": "6863d85e0a024fd6d50da0b1d67cf76e12df7861624d3cde27e84cfde5910be1"
+      "bytes": 1346,
+      "sha256": "c469908c988367dc320eeb84240d4cbd22d4848539ab5893435a83261cdd2875"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1193,
+      "sha256": "8d42793606079156a8268f312f00ad40cf3b8125d807ca113968791c01c46bfe"
+    },
+    {
+      "path": "AUTHORSHIP_AND_REVIEW.md",
+      "bytes": 2300,
+      "sha256": "877c6588aeca9c5ddfd415912ea6f384ef55f1b760d8cef56a06feae264b8d2e"
     }
-  ]
+  ],
+  "presentation_update": "Reader navigation and authorship documentation; no new clinical validation or substantive manuscript revision"
 }
