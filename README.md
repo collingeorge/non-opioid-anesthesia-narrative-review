@@ -9,7 +9,7 @@
 - [Shared anesthesia options and cases](ANESTHESIA_OPTIONS_AND_CASES.md): the same four-modality guide and 12 general teaching cases used throughout the clinical portfolio.
 - [Example format and verification standard](CASE_EXAMPLE_STANDARD.md), [topic source audit](EXAMPLE_SOURCE_AUDIT.json), and [shared source audit](SHARED_SOURCE_AUDIT.json).
 
-These additions use a consistent educational format and source documentation; they do not certify clinical correctness, guideline compliance or patient-care suitability. Existing manuscript/PDF content is retained.
+These additions use a consistent educational format and source documentation; they do not certify clinical correctness, guideline compliance or patient-care suitability. The current rc2 manuscript/PDF content is not changed by this case supplement.
 
 
 > **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
@@ -21,15 +21,15 @@ The earlier source asserted two independent reviewers, agreement statistics, app
 
 - [main.tex](main.tex): revised educational evidence overview.
 - [supplementary.tex](supplementary.tex): provenance and evidence-audit requirements.
-- bibliography.bib: limited bibliography for the revised overview; historical figures are retired.
+- bibliography.bib: companion BibTeX copy of the three references. It is **not** read by main.tex (which keeps an inline reference list) and the PDF is exported from MANUSCRIPT.md, so MANUSCRIPT.md is the reference list of record. Historical figures are retired.
 
-The manuscript and supplementary PDFs are rebuilt from [MANUSCRIPT.md](MANUSCRIPT.md) and [EVIDENCE_AUDIT.md](EVIDENCE_AUDIT.md). Historical PDF filenames are retained for link compatibility. Retired figure files now contain retirement notices, not verified results. Any earlier DOI identifies its deposited version, not automatic validation or publication of this revision.
+The manuscript and supplementary PDFs are rebuilt from [MANUSCRIPT.md](MANUSCRIPT.md) and [EVIDENCE_AUDIT.md](EVIDENCE_AUDIT.md). Historical PDF filenames are retained for link compatibility: the main PDF's filename (`Non_Opioid_Anesthesia_..._A_Narrative_Review.pdf`) is a **historical filename** that still carries the withdrawn title. The document inside it is the current educational overview, not a scholarly narrative review. Retired figure files now contain retirement notices, not verified results. Any earlier DOI identifies its deposited version, not automatic validation or publication of this revision.
 
 ## Evidence boundaries
 
 Opioid-free intraoperative anesthesia, opioid-sparing multimodal analgesia, and an entirely opioid-free recovery are distinct. Reduced opioid exposure does not establish better pain control, fewer complications, or improved long-term outcomes. The review must distinguish procedures, background analgesia, comparators, rescue options, and adverse-event ascertainment.
 
-[POFA randomized trial](https://pubs.asahq.org/anesthesiology/article-pdf/134/4/541/512443/20210400.0-00011.pdf); [IV lidocaine consensus](https://associationofanaesthetists-publications.onlinelibrary.wiley.com/doi/abs/10.1111/anae.15270); [gabapentinoid meta-analysis](https://pubmed.ncbi.nlm.nih.gov/32667154/).
+[POFA randomized trial](https://doi.org/10.1097/ALN.0000000000003725) (doi:10.1097/ALN.0000000000003725); [IV lidocaine consensus](https://doi.org/10.1111/anae.15270) (doi:10.1111/anae.15270); [gabapentinoid meta-analysis](https://doi.org/10.1097/ALN.0000000000003428) (doi:10.1097/ALN.0000000000003428; PMID 32667154).
 
 Author: Collin B. George, pre-medical student. Independent educational portfolio; no institutional affiliation or endorsement is asserted for this work.
 

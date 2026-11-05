@@ -4,7 +4,7 @@
 
 Collin B. George, pre-medical student | Independent educational portfolio
 
-Review draft - 27 October 2026
+Review draft - 27 October 2026; POFA summary and references revised 5 November 2026
 
 **Educational scope.** This is an independent educational discussion, not clinical guidance, a clinical trial, a validated decision aid, or an institutional publication. No institutional endorsement is claimed.
 
@@ -36,7 +36,7 @@ Meaningful comparisons specify procedure, population, intervention components, b
 ## Selected evidence and harms
 
 
-The POFA randomized trial compared a dexmedetomidine-based opioid-free regimen with remifentanil-based balanced anesthesia in major or intermediate noncardiac surgery. Its findings included less opioid consumption and nausea but important adverse outcomes, including severe bradycardia and recovery concerns [pofa]. This trial does not establish that all opioid-free regimens are harmful or that opioid avoidance is universally beneficial. It illustrates why regimen-specific benefit-harm assessment is necessary.
+The POFA randomized trial compared a dexmedetomidine-based opioid-free regimen with remifentanil-based balanced anesthesia in major or intermediate noncardiac surgery. Its primary composite outcome (postoperative hypoxemia, ileus or cognitive dysfunction within 48 hours of extubation) was more frequent with the opioid-free regimen (122 of 156 patients, 78%, versus 105 of 156, 67%), mostly because of more hypoxemia. The trial was stopped early after five cases of severe bradycardia in the dexmedetomidine group. Postoperative opioid consumption and nausea were lower with the opioid-free regimen, but extubation and postanesthesia care unit discharge were delayed [pofa]. This trial does not establish that all opioid-free regimens are harmful or that opioid avoidance is universally beneficial. It illustrates why regimen-specific benefit-harm assessment is necessary.
 
 An international consensus statement treats IV lidocaine for postoperative pain as a high-risk intervention requiring appropriate governance and monitoring. It advises against overlap with other local anesthetic interventions and specifies separation intervals [foo]. A generic multimodal bundle cannot establish the safety of concurrent lidocaine, fascial-plane blocks, or infiltration by a total-dose calculation alone. This overview supplies no dosing schedule.
 
@@ -64,10 +64,10 @@ The supported conclusion is narrow: opioid exposure is one outcome among several
 
 
 
-[pofa]  Beloeil H et al. Balanced opioid-free anesthesia with dexmedetomidine versus balanced anesthesia with remifentanil for major or intermediate noncardiac surgery. Anesthesiology. 2021;134:541-551. https://pubs.asahq.org/anesthesiology/article-pdf/134/4/541/512443/20210400.0-00011.pdf
+[pofa]  Beloeil H et al. Balanced opioid-free anesthesia with dexmedetomidine versus balanced anesthesia with remifentanil for major or intermediate noncardiac surgery. Anesthesiology. 2021;134(4):541-551. doi:10.1097/ALN.0000000000003725. https://doi.org/10.1097/ALN.0000000000003725
 
 
 [foo]  Foo I et al. The use of intravenous lidocaine for postoperative pain and recovery: international consensus statement on efficacy and safety. Anaesthesia. 2021;76:238-250. doi:10.1111/anae.15270.
 
 
-[verret]  Verret M et al. Perioperative use of gabapentinoids for the management of postoperative acute pain: a systematic review and meta-analysis. Anesthesiology. 2020;133:265-279. https://pubmed.ncbi.nlm.nih.gov/32667154/
+[verret]  Verret M et al. Perioperative use of gabapentinoids for the management of postoperative acute pain: a systematic review and meta-analysis. Anesthesiology. 2020;133(2):265-279. doi:10.1097/ALN.0000000000003428. PMID 32667154. https://doi.org/10.1097/ALN.0000000000003428

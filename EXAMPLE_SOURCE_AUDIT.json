@@ -5,63 +5,71 @@
   "sources": [
     {
       "id": "P",
-      "title": "Beloeil H et al. Balanced Opioid-free Anesthesia with Dexmedetomidine versus Balanced Anesthesia with Remifentanil. *Anesthesiology*. 2021. [10.1097/ALN.0000000000003725](https://doi.org/10.1097/ALN.0000000000003725)",
+      "title": "Beloeil H et al. Balanced Opioid-free Anesthesia with Dexmedetomidine versus Balanced Anesthesia with Remifentanil for Major or Intermediate Noncardiac Surgery: The Postoperative and Opioid-free Anesthesia (POFA) Randomized Clinical Trial. Anesthesiology. 2021;134(4):541-551.",
       "doi": "10.1097/ALN.0000000000003725",
-      "scope": "Randomized evidence against assuming universal safety benefit from avoiding intraoperative opioids; did not test this software",
+      "scope": "Randomized trial: primary composite (hypoxemia, ileus or cognitive dysfunction) more frequent with the dexmedetomidine opioid-free regimen; stopped early after five cases of severe bradycardia. Evidence against assuming a universal safety benefit from avoiding intraoperative opioids",
       "checked": "See ANESTHESIA_OPTIONS_AND_CASES.md for source title, scope and source-type mapping"
     },
     {
       "id": "B",
-      "title": "Joshi GP et al. 2026 ASA Practice Guideline on Perioperative Pain Management Using Local and Regional Analgesia for Cardiothoracic Surgeries, Mastectomy, and Abdominal Surgeries. *Anesthesiology*. [10.1097/ALN.0000000000005790](https://doi.org/10.1097/ALN.0000000000005790)",
+      "title": "Joshi GP et al. 2026 American Society of Anesthesiologists Practice Guideline on Perioperative Pain Management Using Local and Regional Analgesia for Cardiothoracic Surgeries, Mastectomy, and Abdominal Surgeries. Anesthesiology. 2026;144(1):19-43.",
       "doi": "10.1097/ALN.0000000000005790",
       "scope": "Procedure-specific local/regional adjunct recommendations; not sole-anesthetic selection",
       "checked": "See ANESTHESIA_OPTIONS_AND_CASES.md for source title, scope and source-type mapping"
     },
     {
       "id": "T",
-      "title": "Nimmo AF et al. Guidelines for the safe practice of total intravenous anaesthesia (TIVA). *Anaesthesia*. 2019. [10.1111/anae.14428](https://doi.org/10.1111/anae.14428)",
+      "title": "Nimmo AF et al. Guidelines for the safe practice of total intravenous anaesthesia (TIVA): joint guidelines from the Association of Anaesthetists and the Society for Intravenous Anaesthesia. Anaesthesia. 2019;74(2):211-224.",
       "doi": "10.1111/anae.14428",
-      "scope": "IV delivery and monitoring principles; no validation of Smart NOA",
+      "scope": "IV delivery and monitoring principles",
       "checked": "See ANESTHESIA_OPTIONS_AND_CASES.md for source title, scope and source-type mapping"
     },
     {
       "id": "DEX",
-      "title": "Weerink et al. Dexmedetomidine pharmacology review (2017)",
+      "title": "Weerink MAS et al. Clinical Pharmacokinetics and Pharmacodynamics of Dexmedetomidine. Clinical Pharmacokinetics. 2017;56(8):893-913.",
       "doi": "10.1007/s40262-017-0507-7",
-      "scope": "Dose contexts differ by indication; toy-model values are not validated by this review.",
+      "scope": "Pharmacokinetic covariates (including hepatic impairment) and hemodynamic effects; dose contexts differ by indication.",
       "checked": "Publisher/PubMed identity and available source text; not an exhaustive full-text appraisal"
     },
     {
+      "id": "LBL",
+      "title": "PRECEDEX (dexmedetomidine hydrochloride) injection, US prescribing information, DailyMed setid 4419162d-81d4-49bd-96de-1729440bdb74",
+      "doi": null,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4419162d-81d4-49bd-96de-1729440bdb74",
+      "scope": "Official labeling (no DOI): consider dose reduction in patients over 65 years and in hepatic impairment.",
+      "checked": "Label Highlights wording checked November 2026 via DailyMed/FDA-hosted label search results"
+    },
+    {
       "id": "LIDO",
-      "title": "Foo et al. IV lidocaine consensus (2021)",
+      "title": "Foo I et al. The use of intravenous lidocaine for postoperative pain and recovery: international consensus statement on efficacy and safety. Anaesthesia. 2021;76(2):238-250.",
       "doi": "10.1111/anae.15270",
       "scope": "High-risk IV use, ideal-body-weight context and avoidance of overlapping local-anesthetic interventions; not a complete regimen.",
       "checked": "Publisher/PubMed identity and available source text; not an exhaustive full-text appraisal"
     },
     {
       "id": "X",
-      "title": "Neal JM, Neal EJ, Weinberg GL. ASRA Local Anesthetic Systemic Toxicity checklist: 2020 version. *Regional Anesthesia and Pain Medicine*. 2021. [10.1136/rapm-2020-101986](https://doi.org/10.1136/rapm-2020-101986)",
+      "title": "Neal JM, Neal EJ, Weinberg GL. American Society of Regional Anesthesia and Pain Medicine Local Anesthetic Systemic Toxicity checklist: 2020 version. Regional Anesthesia and Pain Medicine. 2021;46(1):81-82.",
       "doi": "10.1136/rapm-2020-101986",
       "scope": "Published toxicity response resource, not reproduced or replaced by this guide",
       "checked": "See ANESTHESIA_OPTIONS_AND_CASES.md for source title, scope and source-type mapping"
     },
     {
       "id": "KET",
-      "title": "Schwenk et al. Acute-pain ketamine consensus (2018)",
+      "title": "Schwenk ES et al. Consensus Guidelines on the Use of Intravenous Ketamine Infusions for Acute Pain Management From the American Society of Regional Anesthesia and Pain Medicine, the American Academy of Pain Medicine, and the American Society of Anesthesiologists. Regional Anesthesia and Pain Medicine. 2018;43(5):456-466.",
       "doi": "10.1097/AAP.0000000000000806",
       "scope": "Acute-pain adjunct context, not hypnosis or universal induction guidance.",
       "checked": "Publisher/PubMed identity and available source text; not an exhaustive full-text appraisal"
     },
     {
       "id": "S",
-      "title": "ASA and collaborating societies. Practice Guidelines for Moderate Procedural Sedation and Analgesia 2018. *Anesthesiology*. [10.1097/ALN.0000000000002043](https://doi.org/10.1097/ALN.0000000000002043)",
+      "title": "Practice Guidelines for Moderate Procedural Sedation and Analgesia 2018: A Report by the American Society of Anesthesiologists Task Force on Moderate Procedural Sedation and Analgesia and collaborating societies. Anesthesiology. 2018;128(3):437-479.",
       "doi": "10.1097/ALN.0000000000002043",
       "scope": "Moderate-sedation assessment, monitoring and rescue context; not a deep-sedation recipe",
       "checked": "See ANESTHESIA_OPTIONS_AND_CASES.md for source title, scope and source-type mapping"
     },
     {
       "id": "QOR",
-      "title": "Stark et al. Development and psychometric evaluation of the QoR-15 (2013)",
+      "title": "Stark PA, Myles PS, Burke JA. Development and psychometric evaluation of a postoperative quality of recovery score: the QoR-15. Anesthesiology. 2013;118(6):1332-1340.",
       "doi": "10.1097/ALN.0b013e318289b84b",
       "scope": "Recovery is multidimensional; do not reproduce the questionnaire or interpret a synthetic score as validation.",
       "checked": "Publisher/PubMed identity and available source text; not an exhaustive full-text appraisal"
@@ -82,6 +90,7 @@
       "topic": "Dexmedetomidine and patient risk",
       "sources": [
         "DEX",
+        "LBL",
         "P"
       ]
     },
