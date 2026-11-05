@@ -1,5 +1,7 @@
 # Non-opioid and opioid-sparing anesthesia — reader’s guide
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 Updated 29 October 2026. A selected-source educational overview with a correction record and paired case discussions.
 
 ## Read in this order

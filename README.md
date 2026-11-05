@@ -1,6 +1,6 @@
 # Non-opioid and opioid-sparing anesthesia: educational evidence overview
 
-[Reader’s guide](START_HERE.md) · [Authorship & review status](AUTHORSHIP_AND_REVIEW.md) · [Portfolio home](https://collingeorge.github.io/CM-2026/)
+[Reader’s guide](START_HERE.md) · [Authorship & review status](AUTHORSHIP_AND_REVIEW.md) · [Disclaimer](DISCLAIMER.md) · [Portfolio home](https://collingeorge.github.io/CM-2026/)
 
 
 ## Applied clinical examples — 28 October 2026
@@ -12,8 +12,7 @@
 These additions use a consistent educational format and source documentation; they do not certify clinical correctness, guideline compliance or patient-care suitability. Existing manuscript/PDF content is retained.
 
 
-> Independent educational work. Not a clinical protocol, prescription, patient handout, or validated decision aid. This revision is a draft pending clinical and publication review.
-
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
 This revision narrows the earlier manuscript to a transparent discussion of selected published evidence. It does not claim a completed systematic review, independent duplicate screening, an original meta-analysis, a SANRA quality score, or verified search-flow counts.
 
 The earlier source asserted two independent reviewers, agreement statistics, approximately 1,200 records and 45–50 included studies, formal risk-of-bias assessments, and inconsistent SANRA scores. Supporting screening and appraisal records were not supplied for this review. Those assertions are not retained in the revised source. No replacement reviewer history, search count, or study result has been invented.
@@ -32,7 +31,7 @@ Opioid-free intraoperative anesthesia, opioid-sparing multimodal analgesia, and 
 
 [POFA randomized trial](https://pubs.asahq.org/anesthesiology/article-pdf/134/4/541/512443/20210400.0-00011.pdf); [IV lidocaine consensus](https://associationofanaesthetists-publications.onlinelibrary.wiley.com/doi/abs/10.1111/anae.15270); [gabapentinoid meta-analysis](https://pubmed.ncbi.nlm.nih.gov/32667154/).
 
-Author: Collin B. George, BS. Independent educational portfolio; no institutional affiliation or endorsement is asserted for this work.
+Author: Collin B. George, pre-medical student. Independent educational portfolio; no institutional affiliation or endorsement is asserted for this work.
 
 The prior README states CC BY 4.0. This revision preserves that stated license for the author's original material. It does not license third-party content or determine the rights status of legacy figures.
 

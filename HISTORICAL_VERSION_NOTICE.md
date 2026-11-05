@@ -1,5 +1,7 @@
 # Historical version notice
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 The current educational overview supersedes the earlier manuscripts and figures in this repository's Git history.
 
 A visual review on 27 October 2026 covered all 37 pages of the image-based historical NOA PDF. It showed old institutional/clinical-observation framing, unsupported duplicate-reviewer and screening/appraisal claims, broad efficacy percentages and prescriptive medicine tables. These are not retained as verified evidence in the current source. No patient identifiers were apparent in this visual pass; that is not an exhaustive privacy or rights determination.
