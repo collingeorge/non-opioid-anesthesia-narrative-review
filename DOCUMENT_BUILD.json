@@ -1,18 +1,18 @@
 {
-  "version": "2026.10-rc2",
-  "method": "Direct ReportLab export from named Markdown; TeX compilation not asserted",
+  "version": "2026.11",
+  "method": "November 2026 rebuild: pandoc (GFM -> HTML5) then Chromium print-to-PDF via Playwright, from the named Markdown source. Earlier exports used a ReportLab script not included in the repository.",
   "documents": [
     {
       "source": "non-opioid-anesthesia-narrative-review/MANUSCRIPT.md",
       "pdf": "non-opioid-anesthesia-narrative-review/Non_Opioid_Anesthesia_for_Perioperative_Pain_Management__Evidence__Implementation__and_Future_Directions___A_Narrative_Review.pdf",
-      "source_sha256": "c1326e4f5a9e05c0bf5b49162902f6497afdf0557986fe78606de318239a2c2c",
-      "pdf_sha256": "7433c2006fa94ddb0fac6230744cf97440068f1c8aec561144eac2180d254b6f"
+      "source_sha256": "49a17a4e23e8f2f03b8ee2e0c1f9d6570b670e22f779c04aaf8d7eb1c6d79b64",
+      "pdf_sha256": "1c00f3907da90c9c2165297f0e82cb0c19e31c0d23a2176845edf5973d82379b"
     },
     {
       "source": "non-opioid-anesthesia-narrative-review/EVIDENCE_AUDIT.md",
       "pdf": "non-opioid-anesthesia-narrative-review/supplementary.pdf",
-      "source_sha256": "35334fbe08ce2cec0905a3f0a338bf5fda9ba3f7a06f213261b0749a336f28a8",
-      "pdf_sha256": "4db417f2a6ea5496a620d9306581933fb96d82a468f6a26c3e44f685a4c7673a"
+      "source_sha256": "39b7fcd9e68acd663bb10fa0cecd538b799bc4ca6b6ab5f596a29a2fce8ff76f",
+      "pdf_sha256": "389a5fd1cd7da44208d15747f9958e748948a6d6d8fd97968c743de9ca681fde"
     }
   ]
 }
