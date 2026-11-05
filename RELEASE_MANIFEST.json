@@ -7,9 +7,24 @@
   "findings": [],
   "files": [
     {
-      "path": "bibliography.bib",
-      "bytes": 937,
-      "sha256": "bf165e629c4b879578dd3f8659490efdb639a7c7d3f176345e1208db0c988a19"
+      "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
+      "bytes": 25383,
+      "sha256": "24dbd38d90c999f924c49a9898e14bca1b5716c225eebc02ebac18e56066b5a3"
+    },
+    {
+      "path": "APPLIED_CASES.md",
+      "bytes": 12825,
+      "sha256": "a2d4bd61f23701b3ed9b8431e7bdc4b1629cbc0310f6c7536ff3a7e93e3a849d"
+    },
+    {
+      "path": "AUTHORSHIP_AND_REVIEW.md",
+      "bytes": 2898,
+      "sha256": "e6de9a852170cdf5e3811613de995f0080a9af59b3dbeaaa6cb0086af3f2f166"
+    },
+    {
+      "path": "CASE_EXAMPLE_STANDARD.md",
+      "bytes": 2710,
+      "sha256": "48557d603c85bffca81f8abab2a365b92328f79676ebab16bbb1b1a7840c4226"
     },
     {
       "path": "CITATION.cff",
@@ -17,104 +32,89 @@
       "sha256": "5184af6cca4c3ae964fed165a3f52fd917b834a4bec4d0816545cc3de1f5ff47"
     },
     {
+      "path": "DISCLAIMER.md",
+      "bytes": 3221,
+      "sha256": "e14559201e03ec7a6d5003c1ada177845f59d1059a0b36c60f467e52045f39be"
+    },
+    {
       "path": "DOCUMENT_BUILD.json",
-      "bytes": 928,
-      "sha256": "8f6f4fb4ce4311bee8a7db30758394303439860ced69137f4092d344678eb393"
+      "bytes": 1043,
+      "sha256": "b3e9398960d517bdd577d793ef0bb31127aecba3c5b17c7374b8f53bab72026b"
     },
     {
       "path": "EVIDENCE_AUDIT.md",
-      "bytes": 1362,
-      "sha256": "35334fbe08ce2cec0905a3f0a338bf5fda9ba3f7a06f213261b0749a336f28a8"
+      "bytes": 1570,
+      "sha256": "39b7fcd9e68acd663bb10fa0cecd538b799bc4ca6b6ab5f596a29a2fce8ff76f"
     },
     {
-      "path": "Figure 1_ Multimodal NOA Mechanism",
-      "bytes": 264,
-      "sha256": "aa9d593db281b6cb3a861cff0f59f6e9a15808ffbcc7fe56d0b4a96dca728be6"
-    },
-    {
-      "path": "Figure 2_ Literature Search and Study Selection Flowchart",
-      "bytes": 264,
-      "sha256": "aa9d593db281b6cb3a861cff0f59f6e9a15808ffbcc7fe56d0b4a96dca728be6"
-    },
-    {
-      "path": "Figure 3_ Representative Opioid Reduction Percentages Representative Across Surgical Specialties",
-      "bytes": 264,
-      "sha256": "aa9d593db281b6cb3a861cff0f59f6e9a15808ffbcc7fe56d0b4a96dca728be6"
-    },
-    {
-      "path": "Figure 4_ Perioperative Timeline of NOA Within ERAS Protocols",
-      "bytes": 264,
-      "sha256": "aa9d593db281b6cb3a861cff0f59f6e9a15808ffbcc7fe56d0b4a96dca728be6"
-    },
-    {
-      "path": "HISTORICAL_VERSION_NOTICE.md",
-      "bytes": 1770,
-      "sha256": "fdf98aafe59f7748ff1cc9b62ea1a08ec425c1eb2b1a46dfdbed13ba697bd66c"
-    },
-    {
-      "path": "LICENSE",
-      "bytes": 446,
-      "sha256": "82f3030c7953f80156214905d5b3e26b7136264ea608428df0530e95fc1dfd76"
-    },
-    {
-      "path": "main.tex",
-      "bytes": 6286,
-      "sha256": "2246baf0d5f3e2cd5993028d90185f7a6650d26dd373a68e0ead87834ac1c9d3"
-    },
-    {
-      "path": "MANUSCRIPT.md",
-      "bytes": 5920,
-      "sha256": "c1326e4f5a9e05c0bf5b49162902f6497afdf0557986fe78606de318239a2c2c"
-    },
-    {
-      "path": "Non_Opioid_Anesthesia_for_Perioperative_Pain_Management__Evidence__Implementation__and_Future_Directions___A_Narrative_Review.pdf",
-      "bytes": 78252,
-      "sha256": "7433c2006fa94ddb0fac6230744cf97440068f1c8aec561144eac2180d254b6f"
-    },
-    {
-      "path": "PROVENANCE.md",
-      "bytes": 1418,
-      "sha256": "e8d321b9ad4f01b4a53b25d5310b57b9c4d2aa14c28bc340a00fb8acfdb5a264"
-    },
-    {
-      "path": "PUBLICATION_REVIEW.md",
-      "bytes": 2570,
-      "sha256": "1675a87385af597a78d6d5914176c1d7041d4239ae1887b8fd47b5f5f854d0f7"
-    },
-    {
-      "path": "README.md",
-      "bytes": 4037,
-      "sha256": "2669034dfd2255b3669eef283b99fba25dcce6154a1ecd02656b73504b5664d8"
-    },
-    {
-      "path": "RELEASE_NOTES.md",
-      "bytes": 1346,
-      "sha256": "c469908c988367dc320eeb84240d4cbd22d4848539ab5893435a83261cdd2875"
-    },
-    {
-      "path": "supplementary.pdf",
-      "bytes": 74540,
-      "sha256": "4db417f2a6ea5496a620d9306581933fb96d82a468f6a26c3e44f685a4c7673a"
-    },
-    {
-      "path": "supplementary.tex",
-      "bytes": 1626,
-      "sha256": "6391421a1c90573bad4631e6da0fe4fab64f8f5a5ad277c981cd5f48b62c1609"
-    },
-    {
-      "path": "APPLIED_CASES.md",
-      "bytes": 10595,
-      "sha256": "ace3a3b649f3929db5118aba1727929d48c0822f1fa01756928422d02cf0e94d"
+      "path": "EXAMPLES_MANIFEST.json",
+      "bytes": 1771,
+      "sha256": "3f5df9a257d83a3056bb3c29cd340dd08ad5bc41cd9c2131f5b33b8796a68efc"
     },
     {
       "path": "EXAMPLE_SOURCE_AUDIT.json",
-      "bytes": 5033,
-      "sha256": "109469f3f68206ffa0d96ceb7535161d6d52f5ec61fb9b2c4f7e6da916804808"
+      "bytes": 6458,
+      "sha256": "e92fefd4b809749a4839eba5b0377d0e483f3ef51e211102484ec6d72a68cb00"
     },
     {
-      "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
-      "bytes": 24999,
-      "sha256": "df94e6f475bacafafb9e9dea7ce3612545b59e7cde18f463f9086e33e398a13c"
+      "path": "Figure 1_ Multimodal NOA Mechanism",
+      "bytes": 653,
+      "sha256": "f734cc1cb24220b76c985805799e2968f7fdbb00212d7c25cf7c0149caeb70cf"
+    },
+    {
+      "path": "Figure 2_ Literature Search and Study Selection Flowchart",
+      "bytes": 653,
+      "sha256": "f734cc1cb24220b76c985805799e2968f7fdbb00212d7c25cf7c0149caeb70cf"
+    },
+    {
+      "path": "Figure 3_ Representative Opioid Reduction Percentages Representative Across Surgical Specialties",
+      "bytes": 653,
+      "sha256": "f734cc1cb24220b76c985805799e2968f7fdbb00212d7c25cf7c0149caeb70cf"
+    },
+    {
+      "path": "Figure 4_ Perioperative Timeline of NOA Within ERAS Protocols",
+      "bytes": 653,
+      "sha256": "f734cc1cb24220b76c985805799e2968f7fdbb00212d7c25cf7c0149caeb70cf"
+    },
+    {
+      "path": "HISTORICAL_VERSION_NOTICE.md",
+      "bytes": 3999,
+      "sha256": "7b7b9f5d7666a012c50cedad53c01fe3a56e99df4bffe64ebf1853d342ba461e"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 622,
+      "sha256": "ff94058ca29f1e88e0816882ac76f7b66eab5b74304c562b83366f92d7441af3"
+    },
+    {
+      "path": "MANUSCRIPT.md",
+      "bytes": 6590,
+      "sha256": "49a17a4e23e8f2f03b8ee2e0c1f9d6570b670e22f779c04aaf8d7eb1c6d79b64"
+    },
+    {
+      "path": "Non_Opioid_Anesthesia_for_Perioperative_Pain_Management__Evidence__Implementation__and_Future_Directions___A_Narrative_Review.pdf",
+      "bytes": 57134,
+      "sha256": "1c00f3907da90c9c2165297f0e82cb0c19e31c0d23a2176845edf5973d82379b"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 1622,
+      "sha256": "d5ce2eb97b82f49aaa85acbe8e663df7911352dceb23b43ed0496d396790e8f8"
+    },
+    {
+      "path": "PUBLICATION_REVIEW.md",
+      "bytes": 3194,
+      "sha256": "4766c6f4964dde5fd889d21afd37010d015fdbfbdc8523ef49e54de873eefe8c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4537,
+      "sha256": "e7da46d1aa5329bdcee3babaeb7fc44c2b1ee792194e9c26ce2adcb0d93f52be"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 3691,
+      "sha256": "d5c923d0395d613fbf5e2b5034046ca807e9410e71b444e4047a40944a465f7b"
     },
     {
       "path": "SHARED_SOURCE_AUDIT.json",
@@ -122,24 +122,29 @@
       "sha256": "7e6b4417f53571ef052e3fbe5b993fcab3af84a04d544b91b30191f743ee28d4"
     },
     {
-      "path": "CASE_EXAMPLE_STANDARD.md",
-      "bytes": 2519,
-      "sha256": "82ee781bc5ed0dc9edee2fb607f2a877d3cdc151bf982d072eac9d999c6de93b"
-    },
-    {
-      "path": "EXAMPLES_MANIFEST.json",
-      "bytes": 1771,
-      "sha256": "f4862a358e2d850b0beb7953d8656789ad73d27fd90f6f71ac08ff08523c19ba"
-    },
-    {
       "path": "START_HERE.md",
-      "bytes": 1193,
-      "sha256": "8d42793606079156a8268f312f00ad40cf3b8125d807ca113968791c01c46bfe"
+      "bytes": 1384,
+      "sha256": "af84b45295ce612909fe3722f01aedc34166b4349a18abe4dec2a2dac8208a59"
     },
     {
-      "path": "AUTHORSHIP_AND_REVIEW.md",
-      "bytes": 2300,
-      "sha256": "877c6588aeca9c5ddfd415912ea6f384ef55f1b760d8cef56a06feae264b8d2e"
+      "path": "bibliography.bib",
+      "bytes": 1178,
+      "sha256": "f7b8023478cf8d3c60e802f1eccf090d24975027cae8530eefb88a7249f8cb47"
+    },
+    {
+      "path": "main.tex",
+      "bytes": 6893,
+      "sha256": "9864cb66a13298c2b90f093e4fadf73c871bba023b625fe4faa1ab8f342be006"
+    },
+    {
+      "path": "supplementary.pdf",
+      "bytes": 46714,
+      "sha256": "389a5fd1cd7da44208d15747f9958e748948a6d6d8fd97968c743de9ca681fde"
+    },
+    {
+      "path": "supplementary.tex",
+      "bytes": 1643,
+      "sha256": "1201a2fce84637d00793663008118839eb043b8c28aa852bac7df24de910be0f"
     }
   ],
   "supplement": "clinical-applied-cases-2026-10-28",
